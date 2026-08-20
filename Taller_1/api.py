@@ -26,7 +26,7 @@ class PenguinFeatures(BaseModel):
 # --- Endpoint de predicción ---
 @app.post("/predict")
 def predict(features: PenguinFeatures):
-    # Crear un diccionario con los datos
+    # Crear un diccionario con los datos recibidos
     input_dict = {
         "bill_length_mm": features.bill_length_mm,
         "bill_depth_mm": features.bill_depth_mm,
@@ -39,11 +39,10 @@ def predict(features: PenguinFeatures):
         "sex_male": features.sex_male
     }
 
-    # Convertir a DataFrame con nombres de columnas
+    # Convertir a DataFrame
     input_df = pd.DataFrame([input_dict])
 
-    # Alinear columnas con las del modelo
-    # Esto asegura que si el modelo espera 11 columnas, se agreguen las faltantes con valor 0
+    #Alinear columnas con las que el modelo espera
     for col in model.feature_names_in_:
         if col not in input_df.columns:
             input_df[col] = 0
