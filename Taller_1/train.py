@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
-import joblib
+import pickle
 
 # --- 1. Load ---
 def load_data(path):
@@ -69,7 +69,8 @@ def train_model(X_train, y_train):
 # --- 8. Save Model ---
 def save_model(model, path="./AI_Model/model.pkl"):
     print(f"Saving model to {path}...")
-    joblib.dump(model, path)
+    with open(path, "wb") as f:
+        pickle.dump(model,f)
 
 # --- Main pipeline ---
 if __name__ == "__main__":
@@ -84,7 +85,4 @@ if __name__ == "__main__":
     save_model(model)
     print("Pipeline completed successfully!")
     print(f"Train shape: {X_train.shape}, Test shape: {X_test.shape}")
-
-
-
 
