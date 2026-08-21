@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import pickle
@@ -26,6 +26,18 @@ class PenguinFeatures(BaseModel):
 # --- Endpoint de predicción ---
 @app.post("/predict")
 def predict(features: PenguinFeatures):
+    # Validación manual: valores deben ser positivos
+    if (
+        features.bill_length_mm <= 0 or
+        features.bill_depth_mm <= 0 or
+        features.flipper_length_mm <= 0 or
+        features.body_mass_g <= 0
+    ):
+        raise HTTPException(
+            status_code=422,
+            detail="Las medidas físicas deben ser mayores que cero"
+        )
+
     # Crear un diccionario con los datos recibidos
     input_dict = {
         "bill_length_mm": features.bill_length_mm,
@@ -39,10 +51,9 @@ def predict(features: PenguinFeatures):
         "sex_male": features.sex_male
     }
 
-    # Convertir a DataFrame
     input_df = pd.DataFrame([input_dict])
 
-    #Alinear columnas con las que el modelo espera
+    # Alinear columnas con las que el modelo espera
     for col in model.feature_names_in_:
         if col not in input_df.columns:
             input_df[col] = 0
@@ -53,6 +64,5 @@ def predict(features: PenguinFeatures):
     species_map = {0: "Adelie", 1: "Chinstrap", 2: "Gentoo"}
     species = species_map.get(int(prediction[0]), "Unknown")
 
-    # Retornar respuesta en formato JSON explícito
     return JSONResponse(content={"predicted_species": species})
 
