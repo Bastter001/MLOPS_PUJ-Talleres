@@ -1,0 +1,120 @@
+[2026-09-20T19:33:10.339+0000] {processor.py:156} INFO - Started process (PID=43) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:10.343+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:33:10.346+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:33:10.346+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:10.356+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:10.429+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.108 seconds
+[2026-09-20T19:33:40.649+0000] {processor.py:156} INFO - Started process (PID=100) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:40.651+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:33:40.651+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:33:40.651+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:40.654+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:33:40.683+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.041 seconds
+[2026-09-20T19:34:10.922+0000] {processor.py:156} INFO - Started process (PID=158) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:10.928+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:34:10.929+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:34:10.929+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:10.933+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:10.960+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.046 seconds
+[2026-09-20T19:34:41.458+0000] {processor.py:156} INFO - Started process (PID=216) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:41.465+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:34:41.466+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:34:41.466+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:41.469+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:34:41.493+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.046 seconds
+[2026-09-20T19:35:12.316+0000] {processor.py:156} INFO - Started process (PID=274) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:12.319+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:35:12.320+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:35:12.320+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:12.323+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:12.348+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.038 seconds
+[2026-09-20T19:35:42.696+0000] {processor.py:156} INFO - Started process (PID=332) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:42.698+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:35:42.699+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:35:42.699+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:42.702+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:35:42.727+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.037 seconds
+[2026-09-20T19:36:13.026+0000] {processor.py:156} INFO - Started process (PID=390) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:13.029+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:36:13.030+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:36:13.029+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:13.033+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:13.060+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.041 seconds
+[2026-09-20T19:36:43.522+0000] {processor.py:156} INFO - Started process (PID=448) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:43.524+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:36:43.525+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:36:43.525+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:43.528+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:36:43.552+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.036 seconds
+[2026-09-20T19:37:13.889+0000] {processor.py:156} INFO - Started process (PID=506) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:13.891+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:37:13.891+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:37:13.891+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:13.894+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:13.916+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.033 seconds
+[2026-09-20T19:37:44.520+0000] {processor.py:156} INFO - Started process (PID=564) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:44.524+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:37:44.526+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:37:44.525+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:44.529+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:37:44.569+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.057 seconds
+[2026-09-20T19:38:14.890+0000] {processor.py:156} INFO - Started process (PID=623) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:38:14.892+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T19:38:14.893+0000] {logging_mixin.py:149} INFO - [2026-09-20T19:38:14.893+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:38:14.896+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T19:38:14.918+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.034 seconds
+[2026-09-20T20:12:51.829+0000] {processor.py:156} INFO - Started process (PID=45) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:12:51.833+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:12:51.834+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:12:51.834+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:12:51.838+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:12:51.878+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.061 seconds
+[2026-09-20T20:13:22.416+0000] {processor.py:156} INFO - Started process (PID=102) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:22.418+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:13:22.419+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:13:22.419+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:22.427+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:22.456+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.046 seconds
+[2026-09-20T20:13:52.728+0000] {processor.py:156} INFO - Started process (PID=160) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:52.730+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:13:52.731+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:13:52.731+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:52.734+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:13:52.757+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.035 seconds
+[2026-09-20T20:14:23.269+0000] {processor.py:156} INFO - Started process (PID=218) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:23.274+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:14:23.275+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:14:23.275+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:23.278+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:23.299+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.038 seconds
+[2026-09-20T20:14:54.123+0000] {processor.py:156} INFO - Started process (PID=276) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:54.126+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:14:54.127+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:14:54.127+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:54.131+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:14:54.154+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.037 seconds
+[2026-09-20T20:15:24.644+0000] {processor.py:156} INFO - Started process (PID=334) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:24.646+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:15:24.647+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:15:24.647+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:24.650+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:24.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.036 seconds
+[2026-09-20T20:15:55.016+0000] {processor.py:156} INFO - Started process (PID=392) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:55.019+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:15:55.020+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:15:55.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:55.023+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:15:55.050+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.040 seconds
+[2026-09-20T20:16:25.504+0000] {processor.py:156} INFO - Started process (PID=450) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:25.505+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:16:25.506+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:16:25.505+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:25.508+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:25.531+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.034 seconds
+[2026-09-20T20:16:55.925+0000] {processor.py:156} INFO - Started process (PID=508) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:55.926+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:16:55.928+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:16:55.928+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:55.931+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:16:55.952+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.034 seconds
+[2026-09-20T20:17:26.549+0000] {processor.py:156} INFO - Started process (PID=566) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:26.550+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:17:26.551+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:17:26.551+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:26.554+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:26.576+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.033 seconds
+[2026-09-20T20:17:56.964+0000] {processor.py:156} INFO - Started process (PID=624) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:56.969+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:17:56.970+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:17:56.969+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:56.973+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:17:57.002+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.043 seconds
+[2026-09-20T20:18:27.346+0000] {processor.py:156} INFO - Started process (PID=682) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:27.348+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:18:27.349+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:18:27.349+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:27.352+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:27.382+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.041 seconds
+[2026-09-20T20:18:57.473+0000] {processor.py:156} INFO - Started process (PID=740) to work on /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:57.491+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_4-Entrenamiento.py for tasks to queue
+[2026-09-20T20:18:57.492+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:18:57.492+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:57.495+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_4-Entrenamiento.py
+[2026-09-20T20:18:57.521+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_4-Entrenamiento.py took 0.056 seconds
