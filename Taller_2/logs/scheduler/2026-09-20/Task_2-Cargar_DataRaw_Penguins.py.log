@@ -118,3 +118,88 @@
 [2026-09-20T20:18:57.501+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:18:57.501+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
 [2026-09-20T20:18:57.505+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
 [2026-09-20T20:18:57.531+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.055 seconds
+[2026-09-20T20:19:27.644+0000] {processor.py:156} INFO - Started process (PID=799) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:27.645+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:19:27.646+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:19:27.646+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:27.649+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:27.673+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.036 seconds
+[2026-09-20T20:19:57.873+0000] {processor.py:156} INFO - Started process (PID=857) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:57.875+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:19:57.876+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:19:57.876+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:57.879+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:19:57.905+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.038 seconds
+[2026-09-20T20:20:28.143+0000] {processor.py:156} INFO - Started process (PID=915) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:28.144+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:20:28.146+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:20:28.145+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:28.151+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:28.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.047 seconds
+[2026-09-20T20:20:58.759+0000] {processor.py:156} INFO - Started process (PID=980) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:58.760+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:20:58.762+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:20:58.761+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:58.764+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:20:58.787+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.035 seconds
+[2026-09-20T20:21:29.389+0000] {processor.py:156} INFO - Started process (PID=1037) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:29.391+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:21:29.391+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:21:29.391+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:29.394+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:29.422+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.039 seconds
+[2026-09-20T20:21:59.750+0000] {processor.py:156} INFO - Started process (PID=1095) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:59.751+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:21:59.752+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:21:59.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:59.756+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:21:59.781+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.037 seconds
+[2026-09-20T20:22:30.106+0000] {processor.py:156} INFO - Started process (PID=1153) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:22:30.106+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:22:30.107+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:22:30.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:22:30.110+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:22:30.132+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.031 seconds
+[2026-09-20T20:23:00.705+0000] {processor.py:156} INFO - Started process (PID=1206) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:00.710+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:23:00.712+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:23:00.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:00.717+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:00.737+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.041 seconds
+[2026-09-20T20:23:31.425+0000] {processor.py:156} INFO - Started process (PID=1264) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:31.426+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:23:31.427+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:23:31.427+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:31.430+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:23:31.449+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.029 seconds
+[2026-09-20T20:24:01.940+0000] {processor.py:156} INFO - Started process (PID=1322) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:01.943+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:24:01.944+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:24:01.944+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:01.947+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:01.973+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.040 seconds
+[2026-09-20T20:24:32.686+0000] {processor.py:156} INFO - Started process (PID=1381) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:32.687+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:24:32.688+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:24:32.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:32.692+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:24:32.716+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.035 seconds
+[2026-09-20T20:25:02.776+0000] {processor.py:156} INFO - Started process (PID=1439) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:02.778+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:25:02.779+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:25:02.779+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:02.782+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:02.802+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.034 seconds
+[2026-09-20T20:25:33.086+0000] {processor.py:156} INFO - Started process (PID=1497) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:33.088+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:25:33.089+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:25:33.089+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:33.092+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:25:33.114+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.034 seconds
+[2026-09-20T20:26:03.553+0000] {processor.py:156} INFO - Started process (PID=1555) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:03.557+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:26:03.559+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:26:03.559+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:03.563+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:03.586+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.039 seconds
+[2026-09-20T20:26:33.837+0000] {processor.py:156} INFO - Started process (PID=1613) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:33.839+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:26:33.840+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:26:33.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:33.843+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:26:33.864+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.033 seconds
+[2026-09-20T20:27:04.611+0000] {processor.py:156} INFO - Started process (PID=1669) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:04.613+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:27:04.615+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:27:04.615+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:04.619+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:04.645+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.043 seconds
+[2026-09-20T20:27:35.213+0000] {processor.py:156} INFO - Started process (PID=1725) to work on /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:35.215+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py for tasks to queue
+[2026-09-20T20:27:35.216+0000] {logging_mixin.py:149} INFO - [2026-09-20T20:27:35.216+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:35.219+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py
+[2026-09-20T20:27:35.239+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/Task_2-Cargar_DataRaw_Penguins.py took 0.032 seconds
