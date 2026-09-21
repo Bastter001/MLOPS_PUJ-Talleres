@@ -1,0 +1,15 @@
+[2026-09-21T01:18:19.264+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 02_penguins_batch_inference.01_validate_model_and_data manual__2026-09-21T01:18:17.186121+00:00 [queued]>
+[2026-09-21T01:18:19.277+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 02_penguins_batch_inference.01_validate_model_and_data manual__2026-09-21T01:18:17.186121+00:00 [queued]>
+[2026-09-21T01:18:19.278+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-21T01:18:19.291+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): 01_validate_model_and_data> on 2026-09-21 01:18:17.186121+00:00
+[2026-09-21T01:18:19.300+0000] {standard_task_runner.py:57} INFO - Started process 118 to run task
+[2026-09-21T01:18:19.308+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '02_penguins_batch_inference', '01_validate_model_and_data', 'manual__2026-09-21T01:18:17.186121+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/02_penguins_batch_inference.py', '--cfg-path', '/tmp/tmpilqa0sko']
+[2026-09-21T01:18:19.313+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask 01_validate_model_and_data
+[2026-09-21T01:18:19.399+0000] {task_command.py:410} INFO - Running <TaskInstance: 02_penguins_batch_inference.01_validate_model_and_data manual__2026-09-21T01:18:17.186121+00:00 [running]> on host f033f0268c59
+[2026-09-21T01:18:19.806+0000] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='02_penguins_batch_inference' AIRFLOW_CTX_TASK_ID='01_validate_model_and_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T01:18:17.186121+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-21T01:18:17.186121+00:00'
+[2026-09-21T01:18:19.831+0000] {logging_mixin.py:149} INFO - OK: modelo y datos preprocesados están disponibles.
+[2026-09-21T01:18:19.831+0000] {logging_mixin.py:149} INFO - Registros disponibles: 342
+[2026-09-21T01:18:19.831+0000] {python.py:183} INFO - Done. Returned value was: None
+[2026-09-21T01:18:19.843+0000] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=02_penguins_batch_inference, task_id=01_validate_model_and_data, execution_date=20260921T011817, start_date=20260921T011819, end_date=20260921T011819
+[2026-09-21T01:18:19.879+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2026-09-21T01:18:19.915+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

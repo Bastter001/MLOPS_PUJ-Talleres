@@ -1,0 +1,14 @@
+[2026-09-21T01:18:02.132+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01_penguins_training_pipeline.01_reset_exercise_tables manual__2026-09-21T01:17:57.992957+00:00 [queued]>
+[2026-09-21T01:18:02.145+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01_penguins_training_pipeline.01_reset_exercise_tables manual__2026-09-21T01:17:57.992957+00:00 [queued]>
+[2026-09-21T01:18:02.145+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-21T01:18:02.161+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): 01_reset_exercise_tables> on 2026-09-21 01:17:57.992957+00:00
+[2026-09-21T01:18:02.172+0000] {standard_task_runner.py:57} INFO - Started process 77 to run task
+[2026-09-21T01:18:02.178+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01_penguins_training_pipeline', '01_reset_exercise_tables', 'manual__2026-09-21T01:17:57.992957+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/01_penguins_training_pipeline.py', '--cfg-path', '/tmp/tmpo5k2n9_l']
+[2026-09-21T01:18:02.184+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask 01_reset_exercise_tables
+[2026-09-21T01:18:02.282+0000] {task_command.py:410} INFO - Running <TaskInstance: 01_penguins_training_pipeline.01_reset_exercise_tables manual__2026-09-21T01:17:57.992957+00:00 [running]> on host f033f0268c59
+[2026-09-21T01:18:02.383+0000] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01_penguins_training_pipeline' AIRFLOW_CTX_TASK_ID='01_reset_exercise_tables' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T01:17:57.992957+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-21T01:17:57.992957+00:00'
+[2026-09-21T01:18:02.463+0000] {logging_mixin.py:149} INFO - OK: tablas anteriores del ejercicio eliminadas.
+[2026-09-21T01:18:02.464+0000] {python.py:183} INFO - Done. Returned value was: None
+[2026-09-21T01:18:02.476+0000] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=01_penguins_training_pipeline, task_id=01_reset_exercise_tables, execution_date=20260921T011757, start_date=20260921T011802, end_date=20260921T011802
+[2026-09-21T01:18:02.509+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2026-09-21T01:18:02.552+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
