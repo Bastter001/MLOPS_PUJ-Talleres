@@ -1,0 +1,198 @@
+name: taller-mlops
+
+x-airflow-common:
+  &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile.airflow
+  image: ${AIRFLOW_IMAGE_NAME:-taller-airflow:2.6.0}
+
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+    AIRFLOW__CORE__FERNET_KEY: ""
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session
+
+    MYSQL_HOST: mysql
+    MYSQL_PORT: "3306"
+    MYSQL_DATABASE: ${MYSQL_DATABASE:-mlops}
+    MYSQL_USER: ${MYSQL_USER:-mlops_user}
+    MYSQL_PASSWORD: ${MYSQL_PASSWORD:-mlops_pass_2026}
+
+    DATASET_PATH: /opt/ml/data/penguins.csv
+    MODEL_PATH: /opt/ml/model/penguins_model.joblib
+
+  volumes:
+    - ./dags:/opt/airflow/dags:z
+    - ./logs:/opt/airflow/logs:z
+    - ./plugins:/opt/airflow/plugins:z
+    - ./data:/opt/ml/data:ro,z
+    - ./model:/opt/ml/model:z
+
+  user: "${AIRFLOW_UID:-50000}:0"
+
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+    mysql:
+      condition: service_healthy
+
+services:
+  redis:
+    image: redis:7.2-bookworm
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  postgres:
+    image: postgres:13
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-airflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-airflow}
+      POSTGRES_DB: ${POSTGRES_DB:-airflow}
+    volumes:
+      - postgres_airflow_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-airflow} -d ${POSTGRES_DB:-airflow}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-mlops}
+      MYSQL_USER: ${MYSQL_USER:-mlops_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-mlops_pass_2026}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_pass_2026}
+    volumes:
+      - mysql_mlops_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+
+  airflow-init:
+    <<: *airflow-common
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        echo "=========================================="
+        echo "INICIALIZANDO BASE DE DATOS DE AIRFLOW"
+        echo "=========================================="
+        airflow db init
+
+        echo "=========================================="
+        echo "CREANDO USUARIO WEB DE AIRFLOW"
+        echo "=========================================="
+        airflow users create \
+          --username airflow \
+          --password airflow \
+          --firstname Airflow \
+          --lastname Admin \
+          --role Admin \
+          --email airflow@example.com \
+        || echo "El usuario airflow ya existe"
+
+        echo "=========================================="
+        echo "COMPROBANDO BASE DE DATOS"
+        echo "=========================================="
+        airflow db check
+
+        echo "=========================================="
+        echo "VERSION DE AIRFLOW"
+        echo "=========================================="
+        airflow version
+    restart: "no"
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    restart: unless-stopped
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    restart: unless-stopped
+    environment:
+      <<: *airflow-common-env
+      DUMB_INIT_SETSID: "0"
+    healthcheck:
+      test: ["CMD-SHELL", "celery --app airflow.executors.celery_executor.app inspect ping -d \"celery@$${HOSTNAME}\""]
+      interval: 15s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+  ml-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    image: taller-penguins-api:1.0
+    restart: unless-stopped
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_PORT: "3306"
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-mlops}
+      MYSQL_USER: ${MYSQL_USER:-mlops_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-mlops_pass_2026}
+      MODEL_PATH: /opt/ml/model/penguins_model.joblib
+    volumes:
+      - ./model:/opt/ml/model:ro,z
+    ports:
+      - "8000:8000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
+volumes:
+  postgres_airflow_data:
+    name: taller_airflow_postgres_data
+  mysql_mlops_data:
+    name: taller_mysql_mlops_data
