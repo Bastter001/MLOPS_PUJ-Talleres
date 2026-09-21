@@ -8,3 +8,4 @@ SQLAlchemy==1.4.49
 fastapi==0.95.2
 uvicorn==0.22.0
 pydantic==1.10.13
+dill==0.3.1.1
