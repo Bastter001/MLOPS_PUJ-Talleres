@@ -1,0 +1,33 @@
+services:
+
+  jupyter:
+
+    build:
+      context: ./jupyter
+
+    container_name: mlops_jupyter
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - ./models:/models
+      - ./jupyter/notebooks:/workspace/notebooks
+
+
+
+  api:
+
+    build:
+      context: ./api
+
+    container_name: mlops_api
+
+
+    ports:
+      - "8000:8000"
+
+
+    volumes:
+      - ./models:/models
+
