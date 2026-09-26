@@ -8,12 +8,12 @@ services:
 
 
     ports:
-      - "8888:8888"
+      - "8080:8888"
 
 
     volumes:
 
-      - ./models:/models
+      - models:/models
 
       - ./Data_Files:/Data_Files
 
@@ -38,7 +38,11 @@ services:
 
     volumes:
 
-      - ./models:/models
+      - models:/models
 
 
     restart: always
+
+volumes:
+
+  models:  
