@@ -3,31 +3,42 @@ services:
   jupyter:
 
     build:
-      context: ./jupyter
+      context: .
+      dockerfile: jupyter/Dockerfile
 
-    container_name: mlops_jupyter
 
     ports:
       - "8888:8888"
 
+
     volumes:
+
       - ./models:/models
-      - ./jupyter/notebooks:/workspace/notebooks
+
+      - ./Data_Files:/Data_Files
+
+      - ./jupyter:/workspace
 
 
 
   api:
 
-    build:
-      context: ./api
 
-    container_name: mlops_api
+    build:
+
+      context: .
+
+      dockerfile: api/Dockerfile
 
 
     ports:
+
       - "8000:8000"
 
 
     volumes:
+
       - ./models:/models
 
+
+    restart: always

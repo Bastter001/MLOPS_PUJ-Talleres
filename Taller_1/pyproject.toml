@@ -1,0 +1,25 @@
+[project]
+name = "taller-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daniel Alejandro Argüello Rivillas", email = "daniel.arguello@javeriana.edu.co" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.141.1",
+    "joblib>=1.6.0",
+    "jupyterlab>=4.6.4",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+taller-1 = "taller_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"

@@ -1,46 +1,81 @@
 from fastapi import FastAPI
+
 import joblib
+
 import numpy as np
-import os
 
 
-app = FastAPI()
+app=FastAPI(
+title="API Modelos ML"
+)
 
 
-MODEL_PATH="/models/modelo.pkl"
+
+models={}
 
 
-if os.path.exists(MODEL_PATH):
-    model=joblib.load(MODEL_PATH)
-else:
-    model=None
+
+@app.on_event("startup")
+def load_models():
+
+
+    models["lr"]=joblib.load(
+    "/models/model_lr.pkl"
+    )
+
+
+    models["rf"]=joblib.load(
+    "/models/model_rf.pkl"
+    )
+
+
+    models["svm"]=joblib.load(
+    "/models/model_svm.pkl"
+    )
 
 
 
 @app.get("/")
+
 def home():
 
     return {
-        "mensaje":"API MLOps funcionando",
-        "modelo": model is not None
+
+    "estado":"API activa",
+
+    "modelos":
+    list(models.keys())
+
     }
 
 
 
-@app.post("/predict")
-def predict(data:list):
+@app.post("/predict/{model_name}")
 
-    if model is None:
-        return {
-            "error":"Modelo no encontrado"
-        }
+def predict(
+
+model_name:str,
+
+data:list
+
+):
 
 
-    x=np.array(data).reshape(1,-1)
+    model=models[model_name]
 
-    prediction=model.predict(x)
+
+    prediction=model.predict(
+
+        np.array(data).reshape(1,-1)
+
+    )
 
 
     return {
-        "prediction":int(prediction[0])
+
+    "modelo":model_name,
+
+    "prediccion":
+    prediction.tolist()
+
     }
