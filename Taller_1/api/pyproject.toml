@@ -1,0 +1,36 @@
+[project]
+
+name = "taller-1-api"
+
+version = "0.1.0"
+
+description = "FastAPI inference service for MLOps PUJ"
+
+
+requires-python = ">=3.10"
+
+
+dependencies = [
+
+    "fastapi>=0.141.1",
+
+    "uvicorn[standard]>=0.54.0",
+
+    "python-multipart>=0.0.20",
+
+    "joblib>=1.6.0",
+
+    "numpy>=2.2.6",
+
+    "scikit-learn>=1.7.2"
+
+]
+
+
+[build-system]
+
+requires = [
+    "uv_build>=0.12.19,<0.13.0"
+]
+
+build-backend = "uv_build"
