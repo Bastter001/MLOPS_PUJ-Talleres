@@ -4,18 +4,22 @@ FROM python:3.12-slim
 WORKDIR /app
 
 
-RUN pip install \
-fastapi \
-uvicorn \
-scikit-learn \
-joblib \
-numpy
+RUN pip install uv
 
 
-COPY main.py .
+RUN uv pip install --system \
+    fastapi \
+    uvicorn \
+    pandas \
+    numpy \
+    scikit-learn \
+    joblib
+
+
+COPY api .
 
 
 EXPOSE 8000
 
 
-CMD ["uvicorn","main:app","--host","0.0.0.0","--port","8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

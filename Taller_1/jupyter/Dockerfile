@@ -7,16 +7,18 @@ WORKDIR /workspace
 RUN pip install uv
 
 
-COPY requirements.txt .
+RUN uv pip install --system \
+    jupyterlab \
+    pandas \
+    numpy \
+    scikit-learn \
+    joblib
 
 
-RUN uv pip install --system -r requirements.txt
+COPY jupyter .
 
 
-RUN uv pip install --system jupyterlab
+EXPOSE 8888
 
 
-EXPOSE 8080
-
-
-CMD ["jupyter","lab","--ip=0.0.0.0","--port=8080","--allow-root","--no-browser"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
