@@ -1,0 +1,2 @@
+[2026-09-27T21:45:02.122+0000] {taskinstance.py:1119} INFO - Dependencies not met for <TaskInstance: 01_ingestion.request_api scheduled__2026-09-27T21:40:00+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0), upstream_task_ids={'verify_completion'}
+[2026-09-27T21:45:02.125+0000] {local_task_job_runner.py:161} INFO - Task is not able to be run
