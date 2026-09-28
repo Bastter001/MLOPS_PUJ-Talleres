@@ -1,0 +1,26 @@
+[2026-09-28T02:55:16.470+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T02:52:10+00:00 [queued]>
+[2026-09-28T02:55:16.484+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T02:52:10+00:00 [queued]>
+[2026-09-28T02:55:16.484+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-28T02:55:16.508+0000] {taskinstance.py:1350} INFO - Executing <Task(_PythonDecoratedOperator): validate_processed_source> on 2026-09-28 02:52:10+00:00
+[2026-09-28T02:55:16.519+0000] {standard_task_runner.py:57} INFO - Started process 7565 to run task
+[2026-09-28T02:55:16.529+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '03_training_dataset', 'validate_processed_source', 'manual__2026-09-28T02:52:10+00:00', '--job-id', '231', '--raw', '--subdir', 'DAGS_FOLDER/03_training_dataset.py', '--cfg-path', '/tmp/tmpisc8993h']
+[2026-09-28T02:55:16.534+0000] {standard_task_runner.py:85} INFO - Job 231: Subtask validate_processed_source
+[2026-09-28T02:55:16.622+0000] {task_command.py:410} INFO - Running <TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T02:52:10+00:00 [running]> on host a3b96d336d3d
+[2026-09-28T02:55:16.756+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops' AIRFLOW_CTX_DAG_ID='03_training_dataset' AIRFLOW_CTX_TASK_ID='validate_processed_source' AIRFLOW_CTX_EXECUTION_DATE='2026-09-28T02:52:10+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-28T02:52:10+00:00'
+[2026-09-28T02:55:16.792+0000] {03_training_dataset.py:93} INFO - Registros procesados disponibles: 58100
+[2026-09-28T02:55:16.810+0000] {03_training_dataset.py:114} INFO - Batches presentes en processed: 10/10
+[2026-09-28T02:55:16.827+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 220, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/03_training_dataset.py", line 141, in validate_processed_source
+    f"Hay {invalid_target} registros "
+airflow.exceptions.AirflowFailException: Hay 30583 registros con cover_type inválido
+[2026-09-28T02:55:16.845+0000] {taskinstance.py:1373} INFO - Immediate failure requested. Marking task as FAILED. dag_id=03_training_dataset, task_id=validate_processed_source, execution_date=20260928T025210, start_date=20260928T025516, end_date=20260928T025516
+[2026-09-28T02:55:16.862+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 231 for task validate_processed_source (Hay 30583 registros con cover_type inválido; 7565)
+[2026-09-28T02:55:16.897+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2026-09-28T02:55:16.952+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
