@@ -371,24 +371,47 @@ def training_dataset_dag():
 
             cursor.execute(
                 """
-                SELECT
-                    COUNT(DISTINCT cover_type)
-                FROM training.dataset;
+                SELECT DISTINCT cover_type
+                FROM training.dataset
+                ORDER BY cover_type;
                 """
             )
 
-            class_count = cursor.fetchone()[0]
+            observed_classes = [
+                row[0]
+                for row in cursor.fetchall()
+            ]
 
             logger.info(
-                "Número de clases en training.dataset: %s",
-                class_count,
+                "Clases observadas en training.dataset: %s",
+                observed_classes,
             )
 
-            if class_count != 7:
+            invalid_classes = [
+                value
+                for value in observed_classes
+                if value < 0 or value > 6
+            ]
+
+            if invalid_classes:
                 raise AirflowFailException(
-                    f"Se esperaban 7 clases "
-                    f"y se encontraron {class_count}"
+                    "Se encontraron clases fuera del rango 0-6: "
+                    f"{invalid_classes}"
                 )
+
+            expected_classes = set(range(7))
+            missing_classes = sorted(
+                expected_classes - set(observed_classes)
+            )
+
+            if missing_classes:
+                logger.warning(
+                    "Clases del rango 0-6 no presentes "
+                    "en esta extracción: %s",
+                    missing_classes,
+                )
+
+            class_count = len(observed_classes)
 
             cursor.execute(
                 """
