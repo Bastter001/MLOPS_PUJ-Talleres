@@ -1,0 +1,19 @@
+[2026-09-28T00:40:13.784+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01_ingestion.insert_raw_data scheduled__2026-09-28T00:35:00+00:00 [queued]>
+[2026-09-28T00:40:13.797+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01_ingestion.insert_raw_data scheduled__2026-09-28T00:35:00+00:00 [queued]>
+[2026-09-28T00:40:13.797+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-28T00:40:13.823+0000] {taskinstance.py:1350} INFO - Executing <Task(_PythonDecoratedOperator): insert_raw_data> on 2026-09-28 00:35:00+00:00
+[2026-09-28T00:40:13.834+0000] {standard_task_runner.py:57} INFO - Started process 5025 to run task
+[2026-09-28T00:40:13.843+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01_ingestion', 'insert_raw_data', 'scheduled__2026-09-28T00:35:00+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/01_ingestion.py', '--cfg-path', '/tmp/tmp5vsfqt_o']
+[2026-09-28T00:40:13.847+0000] {standard_task_runner.py:85} INFO - Job 136: Subtask insert_raw_data
+[2026-09-28T00:40:13.988+0000] {task_command.py:410} INFO - Running <TaskInstance: 01_ingestion.insert_raw_data scheduled__2026-09-28T00:35:00+00:00 [running]> on host a3b96d336d3d
+[2026-09-28T00:40:14.517+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops' AIRFLOW_CTX_DAG_ID='01_ingestion' AIRFLOW_CTX_TASK_ID='insert_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-28T00:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-28T00:35:00+00:00'
+[2026-09-28T00:40:14.611+0000] {01_ingestion.py:428} INFO - Datos almacenados correctamente en raw.api_data
+[2026-09-28T00:40:14.612+0000] {01_ingestion.py:434} INFO - ID generado: 4
+[2026-09-28T00:40:14.612+0000] {01_ingestion.py:439} INFO - Timestamp: 2026-09-28 00:40:14.548141
+[2026-09-28T00:40:14.613+0000] {01_ingestion.py:444} INFO - Batch almacenado: 2
+[2026-09-28T00:40:14.613+0000] {01_ingestion.py:449} INFO - Grupo: 8
+[2026-09-28T00:40:14.614+0000] {01_ingestion.py:454} INFO - Registros contenidos en payload: 5810
+[2026-09-28T00:40:14.614+0000] {python.py:183} INFO - Done. Returned value was: {'status': 'inserted', 'id': 4, 'batch_number': 2, 'group_number': 8, 'records': 5810}
+[2026-09-28T00:40:14.654+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=01_ingestion, task_id=insert_raw_data, execution_date=20260928T003500, start_date=20260928T004013, end_date=20260928T004014
+[2026-09-28T00:40:14.693+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2026-09-28T00:40:14.741+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
