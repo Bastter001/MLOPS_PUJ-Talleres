@@ -46,6 +46,9 @@ CREATE TABLE IF NOT EXISTS processed.forest_data (
 
 CREATE TABLE IF NOT EXISTS training.dataset (
     id SERIAL PRIMARY KEY,
+
+    source_processed_id INTEGER NOT NULL,
+
     elevation DOUBLE PRECISION,
     aspect DOUBLE PRECISION,
     slope DOUBLE PRECISION,
@@ -56,8 +59,18 @@ CREATE TABLE IF NOT EXISTS training.dataset (
     hillshade_noon DOUBLE PRECISION,
     hillshade_3pm DOUBLE PRECISION,
     horizontal_distance_to_fire_points DOUBLE PRECISION,
+
     wilderness_area VARCHAR(100),
     soil_type VARCHAR(100),
-    cover_type INTEGER
+
+    cover_type INTEGER,
+
+    CONSTRAINT fk_training_processed
+        FOREIGN KEY (source_processed_id)
+        REFERENCES processed.forest_data(id),
+
+    CONSTRAINT uq_training_source
+        UNIQUE (source_processed_id)
 );
+
 

@@ -1,0 +1,37 @@
+[2026-09-28T02:08:32.359+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 02_processing.process_raw_data manual__2026-09-28T01:54:15+00:00 [queued]>
+[2026-09-28T02:08:32.373+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 02_processing.process_raw_data manual__2026-09-28T01:54:15+00:00 [queued]>
+[2026-09-28T02:08:32.373+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-28T02:08:32.397+0000] {taskinstance.py:1350} INFO - Executing <Task(_PythonDecoratedOperator): process_raw_data> on 2026-09-28 01:54:15+00:00
+[2026-09-28T02:08:32.408+0000] {standard_task_runner.py:57} INFO - Started process 6749 to run task
+[2026-09-28T02:08:32.415+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '02_processing', 'process_raw_data', 'manual__2026-09-28T01:54:15+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/02_processing.py', '--cfg-path', '/tmp/tmp4kq7j0ug']
+[2026-09-28T02:08:32.420+0000] {standard_task_runner.py:85} INFO - Job 223: Subtask process_raw_data
+[2026-09-28T02:08:32.521+0000] {task_command.py:410} INFO - Running <TaskInstance: 02_processing.process_raw_data manual__2026-09-28T01:54:15+00:00 [running]> on host a3b96d336d3d
+[2026-09-28T02:08:32.682+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops' AIRFLOW_CTX_DAG_ID='02_processing' AIRFLOW_CTX_TASK_ID='process_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2026-09-28T01:54:15+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-28T01:54:15+00:00'
+[2026-09-28T02:08:32.948+0000] {02_processing.py:228} INFO - Procesando raw_id=1 batch=1 con 5810 registros
+[2026-09-28T02:08:33.470+0000] {02_processing.py:325} INFO - Batch 1 procesado: 5810 filas válidas
+[2026-09-28T02:08:33.470+0000] {02_processing.py:228} INFO - Procesando raw_id=4 batch=2 con 5810 registros
+[2026-09-28T02:08:34.092+0000] {02_processing.py:325} INFO - Batch 2 procesado: 5810 filas válidas
+[2026-09-28T02:08:34.093+0000] {02_processing.py:228} INFO - Procesando raw_id=6 batch=3 con 5810 registros
+[2026-09-28T02:08:34.612+0000] {02_processing.py:325} INFO - Batch 3 procesado: 5810 filas válidas
+[2026-09-28T02:08:34.613+0000] {02_processing.py:228} INFO - Procesando raw_id=7 batch=4 con 5810 registros
+[2026-09-28T02:08:35.125+0000] {02_processing.py:325} INFO - Batch 4 procesado: 5810 filas válidas
+[2026-09-28T02:08:35.125+0000] {02_processing.py:228} INFO - Procesando raw_id=9 batch=5 con 5810 registros
+[2026-09-28T02:08:35.615+0000] {02_processing.py:325} INFO - Batch 5 procesado: 5810 filas válidas
+[2026-09-28T02:08:35.616+0000] {02_processing.py:228} INFO - Procesando raw_id=11 batch=6 con 5810 registros
+[2026-09-28T02:08:36.137+0000] {02_processing.py:325} INFO - Batch 6 procesado: 5810 filas válidas
+[2026-09-28T02:08:36.137+0000] {02_processing.py:228} INFO - Procesando raw_id=12 batch=7 con 5810 registros
+[2026-09-28T02:08:36.675+0000] {02_processing.py:325} INFO - Batch 7 procesado: 5810 filas válidas
+[2026-09-28T02:08:36.675+0000] {02_processing.py:228} INFO - Procesando raw_id=14 batch=8 con 5810 registros
+[2026-09-28T02:08:37.189+0000] {02_processing.py:325} INFO - Batch 8 procesado: 5810 filas válidas
+[2026-09-28T02:08:37.189+0000] {02_processing.py:228} INFO - Procesando raw_id=16 batch=9 con 5810 registros
+[2026-09-28T02:08:37.758+0000] {02_processing.py:325} INFO - Batch 9 procesado: 5810 filas válidas
+[2026-09-28T02:08:37.759+0000] {02_processing.py:228} INFO - Procesando raw_id=18 batch=10 con 5810 registros
+[2026-09-28T02:08:38.263+0000] {02_processing.py:325} INFO - Batch 10 procesado: 5810 filas válidas
+[2026-09-28T02:08:38.263+0000] {02_processing.py:329} INFO - Procesamiento terminado.
+[2026-09-28T02:08:38.263+0000] {02_processing.py:334} INFO - Total recibidos: 58100
+[2026-09-28T02:08:38.264+0000] {02_processing.py:339} INFO - Total válidos: 58100
+[2026-09-28T02:08:38.264+0000] {02_processing.py:344} INFO - Total inválidos: 0
+[2026-09-28T02:08:38.291+0000] {python.py:183} INFO - Done. Returned value was: {'received': 58100, 'valid': 58100, 'invalid': 0}
+[2026-09-28T02:08:38.329+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=02_processing, task_id=process_raw_data, execution_date=20260928T015415, start_date=20260928T020832, end_date=20260928T020838
+[2026-09-28T02:08:38.380+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2026-09-28T02:08:38.422+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

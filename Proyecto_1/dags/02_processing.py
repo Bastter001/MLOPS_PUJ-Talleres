@@ -434,8 +434,8 @@ def processing_dag():
                 FROM processed.forest_data
                 WHERE group_number = %s
                   AND (
-                    cover_type < 1
-                    OR cover_type > 7
+                    cover_type < 0
+                    OR cover_type > 6
                     OR cover_type IS NULL
                   );
                 """,
@@ -486,7 +486,7 @@ def processing_dag():
             )
 
             logger.info(
-                "Cover_Type válido: rango 1-7."
+                "Cover_Type válido: rango 0-6."
             )
 
             logger.info(
