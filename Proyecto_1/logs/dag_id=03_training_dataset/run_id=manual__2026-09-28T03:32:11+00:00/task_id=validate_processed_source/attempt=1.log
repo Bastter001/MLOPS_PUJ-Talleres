@@ -1,0 +1,15 @@
+[2026-09-28T03:32:13.451+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T03:32:11+00:00 [queued]>
+[2026-09-28T03:32:13.737+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T03:32:11+00:00 [queued]>
+[2026-09-28T03:32:13.737+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2026-09-28T03:32:13.758+0000] {taskinstance.py:1350} INFO - Executing <Task(_PythonDecoratedOperator): validate_processed_source> on 2026-09-28 03:32:11+00:00
+[2026-09-28T03:32:13.769+0000] {standard_task_runner.py:57} INFO - Started process 81 to run task
+[2026-09-28T03:32:13.776+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '03_training_dataset', 'validate_processed_source', 'manual__2026-09-28T03:32:11+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/03_training_dataset.py', '--cfg-path', '/tmp/tmp44gtphpl']
+[2026-09-28T03:32:13.781+0000] {standard_task_runner.py:85} INFO - Job 242: Subtask validate_processed_source
+[2026-09-28T03:32:13.872+0000] {task_command.py:410} INFO - Running <TaskInstance: 03_training_dataset.validate_processed_source manual__2026-09-28T03:32:11+00:00 [running]> on host a3b96d336d3d
+[2026-09-28T03:32:14.005+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops' AIRFLOW_CTX_DAG_ID='03_training_dataset' AIRFLOW_CTX_TASK_ID='validate_processed_source' AIRFLOW_CTX_EXECUTION_DATE='2026-09-28T03:32:11+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-28T03:32:11+00:00'
+[2026-09-28T03:32:14.038+0000] {03_training_dataset.py:93} INFO - Registros procesados disponibles: 58100
+[2026-09-28T03:32:14.057+0000] {03_training_dataset.py:114} INFO - Batches presentes en processed: 10/10
+[2026-09-28T03:32:14.071+0000] {python.py:183} INFO - Done. Returned value was: {'processed_count': 58100, 'batch_count': 10, 'invalid_target': 0}
+[2026-09-28T03:32:14.117+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=03_training_dataset, task_id=validate_processed_source, execution_date=20260928T033211, start_date=20260928T033213, end_date=20260928T033214
+[2026-09-28T03:32:14.150+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2026-09-28T03:32:14.206+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
