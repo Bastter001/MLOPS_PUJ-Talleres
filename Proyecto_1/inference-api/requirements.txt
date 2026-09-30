@@ -11,3 +11,4 @@ threadpoolctl==3.1.0
 minio==7.1.17
 
 pydantic==1.10.13
+dill==0.3.7
