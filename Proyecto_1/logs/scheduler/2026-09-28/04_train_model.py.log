@@ -303,3 +303,17 @@
 [2026-09-28T04:56:11.168+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:56:11.167+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2026-09-28T04:56:11.212+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:56:11.212+0000] {dag.py:3490} INFO - Setting next_dagrun for 04_train_model to None, run_after=None
 [2026-09-28T04:56:11.243+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/04_train_model.py took 2.798 seconds
+[2026-09-28T04:56:41.948+0000] {processor.py:156} INFO - Started process (PID=2796) to work on /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:56:41.951+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/04_train_model.py for tasks to queue
+[2026-09-28T04:56:41.952+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:56:41.952+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:56:44.853+0000] {processor.py:809} INFO - DAG(s) dict_keys(['04_train_model']) retrieved from /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:56:44.886+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:56:44.885+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-09-28T04:56:44.928+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:56:44.927+0000] {dag.py:3490} INFO - Setting next_dagrun for 04_train_model to None, run_after=None
+[2026-09-28T04:56:44.961+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/04_train_model.py took 3.019 seconds
+[2026-09-28T04:57:15.129+0000] {processor.py:156} INFO - Started process (PID=2877) to work on /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:57:15.131+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/04_train_model.py for tasks to queue
+[2026-09-28T04:57:15.133+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:57:15.132+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:57:17.881+0000] {processor.py:809} INFO - DAG(s) dict_keys(['04_train_model']) retrieved from /opt/airflow/dags/04_train_model.py
+[2026-09-28T04:57:17.920+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:57:17.919+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-09-28T04:57:17.961+0000] {logging_mixin.py:149} INFO - [2026-09-28T04:57:17.960+0000] {dag.py:3490} INFO - Setting next_dagrun for 04_train_model to None, run_after=None
+[2026-09-28T04:57:17.993+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/04_train_model.py took 2.872 seconds

@@ -166,6 +166,33 @@ services:
       timeout: 5s
       retries: 5
     restart: unless-stopped
+
+  inference-api:
+
+    build:
+      context: ./inference-api
+
+    image: proyecto1-inference-api:1.0
+
+    container_name: mlops-inference-api
+    
+    environment:
+
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+      MINIO_BUCKET: ml-models
+      MODEL_OBJECT: models/best_model.pkl
+
+    ports:
+
+      - "8010:8010"
+
+    depends_on:
+     
+      - minio
+
+    restart: unless-stopped
   
   minio:
     image: alpine/minio:latest-release
