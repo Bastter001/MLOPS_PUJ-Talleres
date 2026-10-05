@@ -1,0 +1,181 @@
+services:
+
+  # =========================================================
+  # BASE DE DATOS EXCLUSIVA DE MLFLOW
+  # =========================================================
+  mlflow-db:
+    image: postgres:16
+    container_name: mlflow-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${MLFLOW_DB_USER}
+      POSTGRES_PASSWORD: ${MLFLOW_DB_PASSWORD}
+      POSTGRES_DB: ${MLFLOW_DB_NAME}
+    volumes:
+      - mlflow_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${MLFLOW_DB_USER} -d ${MLFLOW_DB_NAME}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+
+  # =========================================================
+  # BASE DE DATOS DE LOS DATOS DEL MODELO
+  # =========================================================
+  data-db:
+    image: postgres:16
+    container_name: data-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DATA_DB_USER}
+      POSTGRES_PASSWORD: ${DATA_DB_PASSWORD}
+      POSTGRES_DB: ${DATA_DB_NAME}
+    volumes:
+      - data_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${DATA_DB_USER} -d ${DATA_DB_NAME}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+
+  # =========================================================
+  # MINIO - ARTEFACTOS MLFLOW
+  # =========================================================
+  minio:
+    image: coollabsio/minio:RELEASE.2025-04-22T22-12-26Z
+    container_name: minio
+    command: server /data --console-address ":9001"
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    ports:
+      - "8000:9000"
+      - "8001:9001"
+    volumes:
+      - minio_data:/data
+
+
+  # =========================================================
+  # CREAR BUCKET DE MLFLOW
+  # =========================================================
+  minio-init:
+    image: cgr.dev/chainguard/minio:latest
+    container_name: minio-init
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set myminio
+      http://minio:9000
+      ${MINIO_ROOT_USER}
+      ${MINIO_ROOT_PASSWORD};
+      do sleep 2;
+      done;
+      mc mb --ignore-existing myminio/mlflow;
+      exit 0;
+      "
+
+
+  # =========================================================
+  # MLFLOW
+  # =========================================================
+  mlflow:
+    build:
+      context: ./mlflow
+    container_name: mlflow
+    restart: unless-stopped
+
+    depends_on:
+      mlflow-db:
+        condition: service_healthy
+      minio:
+        condition: service_started
+
+    environment:
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+
+      AWS_ACCESS_KEY_ID: ${MINIO_ROOT_USER}
+      AWS_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD}
+
+    command: >
+      /bin/sh -c "
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri
+      postgresql+psycopg2://${MLFLOW_DB_USER}:${MLFLOW_DB_PASSWORD}@mlflow-db:5432/${MLFLOW_DB_NAME}
+      --serve-artifacts
+      --artifacts-destination s3://mlflow
+      "
+
+    ports:
+      - "5001:5000"
+
+
+  # =========================================================
+  # JUPYTER
+  # =========================================================
+  jupyter:
+    build:
+      context: ./jupyter
+    container_name: jupyter
+    restart: unless-stopped
+
+    depends_on:
+      data-db:
+        condition: service_healthy
+      mlflow:
+        condition: service_started
+
+    environment:
+      JUPYTER_TOKEN: ${JUPYTER_TOKEN}
+
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+
+      DATA_DB_URI: postgresql+psycopg2://${DATA_DB_USER}:${DATA_DB_PASSWORD}@data-db:5432/${DATA_DB_NAME}
+
+    ports:
+      - "8080:8888"
+
+    volumes:
+      - ./notebooks:/home/jovyan/work
+
+
+  # =========================================================
+  # API DE INFERENCIA
+  # =========================================================
+  api:
+    build:
+      context: ./api
+
+    container_name: mlflow-api
+    restart: unless-stopped
+
+    depends_on:
+      - mlflow
+
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+
+    ports:
+      - "8010:8000"
+
+
+volumes:
+
+  mlflow_db_data:
+
+  data_db_data:
+
+  minio_data:
