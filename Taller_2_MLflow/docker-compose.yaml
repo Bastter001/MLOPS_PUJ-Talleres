@@ -69,22 +69,36 @@ services:
   # =========================================================
   # CREAR BUCKET DE MLFLOW
   # =========================================================
+  
   minio-init:
-    image: cgr.dev/chainguard/minio:latest
+    image: cgr.dev/chainguard/minio-client:latest-dev
     container_name: minio-init
+
     depends_on:
       - minio
-    entrypoint: >
-      /bin/sh -c "
-      until mc alias set myminio
-      http://minio:9000
-      ${MINIO_ROOT_USER}
-      ${MINIO_ROOT_PASSWORD};
-      do sleep 2;
-      done;
-      mc mb --ignore-existing myminio/mlflow;
-      exit 0;
-      "
+
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+
+    entrypoint: ["/bin/sh", "-c"]
+
+    command:
+      - |
+        set -eu
+        attempt=0
+
+        until mc alias set myminio http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD" && mc ready myminio; do
+          attempt=$$((attempt + 1))
+
+          if [ "$$attempt" -ge 60 ]; then
+            exit 1
+          fi
+
+          sleep 2
+        done
+          
+        mc mb --ignore-existing myminio/mlflow
 
 
   # =========================================================
@@ -99,14 +113,16 @@ services:
     depends_on:
       mlflow-db:
         condition: service_healthy
-      minio:
-        condition: service_started
+      minio-init:
+        condition: service_completed_successfully
 
     environment:
       MLFLOW_S3_ENDPOINT_URL: http://minio:9000
-
+      MLFLOW_TRACKING_URI: http://mlflow:5000
       AWS_ACCESS_KEY_ID: ${MINIO_ROOT_USER}
       AWS_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD}
+      MLFLOW_SERVER_ALLOWED_HOSTS: "mlflow:5000,mlflow,localhost:*,127.0.0.1:*,10.43.97.91:8021"
+      MLFLOW_DB_URI: postgresql+psycopg2://${MLFLOW_DB_USER}:${MLFLOW_DB_PASSWORD}@mlflow-db:5432/${MLFLOW_DB_NAME}
 
     command: >
       /bin/sh -c "
@@ -144,13 +160,18 @@ services:
       MLFLOW_TRACKING_URI: http://mlflow:5000
 
       DATA_DB_URI: postgresql+psycopg2://${DATA_DB_USER}:${DATA_DB_PASSWORD}@data-db:5432/${DATA_DB_NAME}
+      DATA_CSV: /home/jovyan/data/penguins.csv
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
 
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+     
     ports:
       - "8080:8888"
 
     volumes:
-      - ./notebooks:/home/jovyan/work
-
+      - ./notebooks:/home/jovyan/work:z
+      - ./data:/home/jovyan/data:ro,z  
 
   # =========================================================
   # API DE INFERENCIA
@@ -167,6 +188,13 @@ services:
 
     environment:
       MLFLOW_TRACKING_URI: http://mlflow:5000
+
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+
+      MODEL_URI: models:/PenguinsClassifier@champion
 
     ports:
       - "8010:8000"
