@@ -1,0 +1,812 @@
+[2026-10-05T00:00:20.025+0000] {processor.py:156} INFO - Started process (PID=895260) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:20.027+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:00:20.028+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:20.028+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:20.247+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:20.291+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:20.290+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:00:20.338+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:20.337+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:00:20.380+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.362 seconds
+[2026-10-05T00:00:51.091+0000] {processor.py:156} INFO - Started process (PID=895324) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:51.093+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:00:51.094+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:51.094+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:51.252+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:00:51.294+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:51.294+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:00:51.343+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:51.343+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:00:51.384+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.300 seconds
+[2026-10-05T00:01:22.223+0000] {processor.py:156} INFO - Started process (PID=895388) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:22.226+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:01:22.227+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:22.227+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:22.364+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:22.415+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:22.415+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:01:22.477+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:22.476+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:01:22.513+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.299 seconds
+[2026-10-05T00:01:53.109+0000] {processor.py:156} INFO - Started process (PID=895454) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:53.111+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:01:53.112+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:53.112+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:53.257+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:01:53.307+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:53.307+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:01:53.358+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:53.358+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:01:53.389+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:02:23.578+0000] {processor.py:156} INFO - Started process (PID=895519) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:23.579+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:02:23.580+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:23.580+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:23.745+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:23.788+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:23.788+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:02:23.844+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:23.844+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:02:23.878+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.307 seconds
+[2026-10-05T00:02:54.723+0000] {processor.py:156} INFO - Started process (PID=895584) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:54.725+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:02:54.726+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:54.726+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:54.852+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:02:54.890+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:54.890+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:02:54.934+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:54.933+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:02:54.972+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.256 seconds
+[2026-10-05T00:03:25.260+0000] {processor.py:156} INFO - Started process (PID=895649) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:25.262+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:03:25.263+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:25.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:25.426+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:25.468+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:25.468+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:03:25.518+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:25.518+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:03:25.549+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.296 seconds
+[2026-10-05T00:03:55.664+0000] {processor.py:156} INFO - Started process (PID=895714) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:55.666+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:03:55.667+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:55.666+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:55.827+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:03:55.883+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:55.882+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:03:55.934+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:55.934+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:03:55.970+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.318 seconds
+[2026-10-05T00:04:26.576+0000] {processor.py:156} INFO - Started process (PID=895779) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:26.577+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:04:26.579+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:26.579+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:26.730+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:26.769+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:26.768+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:04:26.825+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:26.824+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:04:26.856+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:04:57.485+0000] {processor.py:156} INFO - Started process (PID=895844) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:57.487+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:04:57.488+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:57.488+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:57.639+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:04:57.696+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:57.695+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:04:57.742+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:57.742+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:04:57.777+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.299 seconds
+[2026-10-05T00:05:28.125+0000] {processor.py:156} INFO - Started process (PID=895910) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:28.126+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:05:28.127+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:28.127+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:28.268+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:28.307+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:28.307+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:05:28.354+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:28.353+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:05:28.384+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.267 seconds
+[2026-10-05T00:05:58.896+0000] {processor.py:156} INFO - Started process (PID=895975) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:58.898+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:05:58.899+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:58.899+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:59.043+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:05:59.086+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:59.085+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:05:59.133+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:59.132+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:05:59.170+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.280 seconds
+[2026-10-05T00:06:29.321+0000] {processor.py:156} INFO - Started process (PID=896040) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:29.322+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:06:29.323+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:29.323+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:29.484+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:29.555+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:29.555+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:06:29.603+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:29.602+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:06:29.636+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.324 seconds
+[2026-10-05T00:06:59.687+0000] {processor.py:156} INFO - Started process (PID=896105) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:59.690+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:06:59.691+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:59.690+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:59.829+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:06:59.873+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:59.872+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:06:59.913+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:59.913+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:06:59.943+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.264 seconds
+[2026-10-05T00:07:30.274+0000] {processor.py:156} INFO - Started process (PID=896165) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:07:30.276+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:07:30.277+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:07:30.277+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:07:30.445+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:07:30.490+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:07:30.490+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:07:30.541+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:07:30.541+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:07:30.574+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.308 seconds
+[2026-10-05T00:08:00.749+0000] {processor.py:156} INFO - Started process (PID=896230) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:00.752+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:08:00.753+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:00.753+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:00.896+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:00.947+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:00.947+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:08:01.000+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:01.000+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:08:01.031+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.289 seconds
+[2026-10-05T00:08:31.522+0000] {processor.py:156} INFO - Started process (PID=896295) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:31.523+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:08:31.524+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:31.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:31.678+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:08:31.724+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:31.723+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:08:31.769+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:31.768+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:08:31.803+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.287 seconds
+[2026-10-05T00:09:02.027+0000] {processor.py:156} INFO - Started process (PID=896360) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:02.029+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:09:02.030+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:02.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:02.171+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:02.216+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:02.216+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:09:02.278+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:02.277+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:09:02.311+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.291 seconds
+[2026-10-05T00:09:32.471+0000] {processor.py:156} INFO - Started process (PID=896426) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:32.472+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:09:32.474+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:32.473+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:32.614+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:09:32.657+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:32.656+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:09:32.705+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:32.705+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:09:32.741+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.278 seconds
+[2026-10-05T00:10:02.884+0000] {processor.py:156} INFO - Started process (PID=896489) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:02.886+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:10:02.887+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:02.887+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:03.037+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:03.080+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:03.080+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:10:03.132+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:03.131+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:10:03.163+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:10:33.542+0000] {processor.py:156} INFO - Started process (PID=896554) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:33.543+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:10:33.544+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:33.544+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:33.685+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:10:33.730+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:33.729+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:10:33.778+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:33.778+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:10:33.813+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.277 seconds
+[2026-10-05T00:11:03.978+0000] {processor.py:156} INFO - Started process (PID=896620) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:03.981+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:11:03.982+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:03.982+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:04.136+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:04.187+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:04.187+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:11:04.248+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:04.248+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:11:04.292+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.321 seconds
+[2026-10-05T00:11:34.486+0000] {processor.py:156} INFO - Started process (PID=896686) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:34.487+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:11:34.488+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:34.488+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:34.631+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:11:34.674+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:34.674+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:11:34.722+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:34.722+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:11:34.760+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.280 seconds
+[2026-10-05T00:12:04.989+0000] {processor.py:156} INFO - Started process (PID=896750) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:04.992+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:12:04.994+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:04.993+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:05.132+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:05.178+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:05.178+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:12:05.224+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:05.224+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:12:05.257+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.275 seconds
+[2026-10-05T00:12:35.732+0000] {processor.py:156} INFO - Started process (PID=896815) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:35.734+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:12:35.735+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:35.735+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:35.883+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:12:35.934+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:35.934+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:12:36.000+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:35.999+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:12:36.045+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.320 seconds
+[2026-10-05T00:13:06.740+0000] {processor.py:156} INFO - Started process (PID=896880) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:06.743+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:13:06.744+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:06.744+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:06.876+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:06.915+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:06.915+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:13:06.959+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:06.959+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:13:06.986+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.252 seconds
+[2026-10-05T00:13:37.584+0000] {processor.py:156} INFO - Started process (PID=896945) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:37.587+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:13:37.589+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:37.587+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:37.725+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:13:37.773+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:37.773+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:13:37.818+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:37.817+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:13:37.853+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:14:08.031+0000] {processor.py:156} INFO - Started process (PID=897004) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:08.033+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:14:08.034+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:08.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:08.162+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:08.201+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:08.201+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:14:08.242+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:08.242+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:14:08.277+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.252 seconds
+[2026-10-05T00:14:38.861+0000] {processor.py:156} INFO - Started process (PID=897069) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:38.863+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:14:38.864+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:38.864+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:38.996+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:14:39.032+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:39.032+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:14:39.268+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:39.268+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:14:39.298+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.443 seconds
+[2026-10-05T00:15:09.372+0000] {processor.py:156} INFO - Started process (PID=897133) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:09.376+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:15:09.378+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:09.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:09.616+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:09.677+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:09.677+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:15:09.762+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:09.762+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:15:09.795+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.433 seconds
+[2026-10-05T00:15:40.544+0000] {processor.py:156} INFO - Started process (PID=897199) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:40.546+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:15:40.547+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:40.547+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:40.683+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:15:40.720+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:40.720+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:15:40.946+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:40.945+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:15:40.974+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.436 seconds
+[2026-10-05T00:16:11.455+0000] {processor.py:156} INFO - Started process (PID=897264) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:11.457+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:16:11.458+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:11.458+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:11.617+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:11.671+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:11.670+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:16:11.918+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:11.917+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:16:11.943+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.494 seconds
+[2026-10-05T00:16:42.242+0000] {processor.py:156} INFO - Started process (PID=897329) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:42.244+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:16:42.245+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:42.245+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:42.433+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:16:42.678+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:42.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:16:42.717+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:42.717+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:16:42.742+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.508 seconds
+[2026-10-05T00:17:13.415+0000] {processor.py:156} INFO - Started process (PID=897400) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:13.417+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:17:13.418+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:13.418+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:13.769+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:13.818+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:13.818+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:17:13.857+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:13.857+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:17:13.890+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.481 seconds
+[2026-10-05T00:17:44.790+0000] {processor.py:156} INFO - Started process (PID=897465) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:44.792+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:17:44.793+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:44.792+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:45.135+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:17:45.171+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:45.171+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:17:45.212+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:45.211+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:17:45.242+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.460 seconds
+[2026-10-05T00:18:15.751+0000] {processor.py:156} INFO - Started process (PID=897530) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:15.753+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:18:15.754+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:15.754+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:16.091+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:16.123+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:16.123+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:18:16.170+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:16.170+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:18:16.202+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.458 seconds
+[2026-10-05T00:18:46.257+0000] {processor.py:156} INFO - Started process (PID=897595) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:46.264+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:18:46.265+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:46.265+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:46.640+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:18:46.677+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:46.675+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:18:46.721+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:46.721+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:18:46.755+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.507 seconds
+[2026-10-05T00:19:17.583+0000] {processor.py:156} INFO - Started process (PID=897660) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:17.585+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:19:17.586+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:17.586+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:17.941+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:17.970+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:17.969+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:19:18.010+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:18.010+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:19:18.038+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.461 seconds
+[2026-10-05T00:19:48.625+0000] {processor.py:156} INFO - Started process (PID=897725) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:48.627+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:19:48.628+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:48.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:48.776+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:19:48.827+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:48.826+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:19:48.886+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:48.886+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:19:48.928+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.311 seconds
+[2026-10-05T00:20:19.201+0000] {processor.py:156} INFO - Started process (PID=897790) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:19.203+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:20:19.204+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:19.204+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:19.378+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:19.419+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:19.419+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:20:19.466+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:19.466+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:20:19.507+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.313 seconds
+[2026-10-05T00:20:50.078+0000] {processor.py:156} INFO - Started process (PID=897855) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:50.079+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:20:50.080+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:50.080+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:50.224+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:20:50.267+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:50.266+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:20:50.322+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:50.322+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:20:50.355+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.284 seconds
+[2026-10-05T00:21:20.788+0000] {processor.py:156} INFO - Started process (PID=897920) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:20.791+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:21:20.792+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:20.792+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:20.941+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:20.984+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:20.984+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:21:21.032+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:21.032+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:21:21.072+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.290 seconds
+[2026-10-05T00:21:51.765+0000] {processor.py:156} INFO - Started process (PID=897981) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:51.766+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:21:51.767+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:51.767+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:51.923+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:21:51.966+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:51.966+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:21:52.014+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:52.013+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:21:52.058+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.300 seconds
+[2026-10-05T00:22:22.497+0000] {processor.py:156} INFO - Started process (PID=898045) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:22.499+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:22:22.500+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:22.500+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:22.651+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:22.701+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:22.701+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:22:22.754+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:22.754+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:22:22.791+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.300 seconds
+[2026-10-05T00:22:53.052+0000] {processor.py:156} INFO - Started process (PID=898110) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:53.053+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:22:53.054+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:53.054+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:53.204+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:22:53.251+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:53.251+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:22:53.300+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:53.300+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:22:53.343+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.298 seconds
+[2026-10-05T00:23:23.704+0000] {processor.py:156} INFO - Started process (PID=898174) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:23.706+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:23:23.707+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:23.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:23.849+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:23.896+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:23.895+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:23:23.955+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:23.955+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:23:23.984+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:23:54.516+0000] {processor.py:156} INFO - Started process (PID=898239) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:54.517+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:23:54.518+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:54.518+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:54.661+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:23:54.708+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:54.708+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:23:54.765+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:54.765+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:23:54.801+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.291 seconds
+[2026-10-05T00:24:25.247+0000] {processor.py:156} INFO - Started process (PID=898305) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:25.254+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:24:25.256+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:25.255+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:25.398+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:25.434+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:25.434+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:24:25.493+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:25.492+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:24:25.527+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.288 seconds
+[2026-10-05T00:24:55.671+0000] {processor.py:156} INFO - Started process (PID=898370) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:55.673+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:24:55.674+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:55.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:55.820+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:24:55.875+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:55.875+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:24:55.936+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:55.935+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:24:55.978+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.312 seconds
+[2026-10-05T00:25:26.182+0000] {processor.py:156} INFO - Started process (PID=898436) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:26.185+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:25:26.186+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:26.186+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:26.336+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:26.375+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:26.375+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:25:26.427+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:26.427+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:25:26.465+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.289 seconds
+[2026-10-05T00:25:56.939+0000] {processor.py:156} INFO - Started process (PID=898501) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:56.941+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:25:56.942+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:56.942+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:57.080+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:25:57.122+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:57.121+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:25:57.174+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:57.174+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:25:57.217+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.285 seconds
+[2026-10-05T00:26:27.919+0000] {processor.py:156} INFO - Started process (PID=898565) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:27.921+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:26:27.923+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:27.922+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:28.067+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:28.105+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:28.105+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:26:28.152+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:28.152+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:26:28.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.273 seconds
+[2026-10-05T00:26:58.989+0000] {processor.py:156} INFO - Started process (PID=898630) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:58.991+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:26:58.992+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:58.992+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:59.131+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:26:59.165+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:59.165+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:26:59.214+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:59.213+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:26:59.258+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:27:29.996+0000] {processor.py:156} INFO - Started process (PID=898695) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:27:29.998+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:27:29.999+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:27:29.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:27:30.159+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:27:30.222+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:27:30.221+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:27:30.276+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:27:30.276+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:27:30.315+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.327 seconds
+[2026-10-05T00:28:00.723+0000] {processor.py:156} INFO - Started process (PID=898760) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:00.725+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:28:00.726+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:00.726+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:00.870+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:00.912+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:00.912+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:28:00.960+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:00.960+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:28:00.993+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:28:31.133+0000] {processor.py:156} INFO - Started process (PID=898825) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:31.137+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:28:31.138+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:31.138+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:31.282+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:28:31.328+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:31.328+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:28:31.376+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:31.375+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:28:31.413+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.288 seconds
+[2026-10-05T00:29:01.677+0000] {processor.py:156} INFO - Started process (PID=898890) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:01.679+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:29:01.680+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:01.680+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:01.820+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:01.859+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:01.859+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:29:01.905+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:01.905+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:29:01.936+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.267 seconds
+[2026-10-05T00:29:32.102+0000] {processor.py:156} INFO - Started process (PID=898950) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:32.117+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:29:32.119+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:32.119+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:32.266+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:29:32.316+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:32.315+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:29:32.360+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:32.359+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:29:32.390+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.294 seconds
+[2026-10-05T00:30:02.981+0000] {processor.py:156} INFO - Started process (PID=899010) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:02.983+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:30:02.984+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:02.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:03.149+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:03.189+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:03.189+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:30:03.229+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:03.228+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:30:03.260+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:30:33.772+0000] {processor.py:156} INFO - Started process (PID=899072) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:33.777+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:30:33.779+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:33.778+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:33.923+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:30:33.963+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:33.963+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:30:34.015+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:34.015+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:30:34.057+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.290 seconds
+[2026-10-05T00:31:04.219+0000] {processor.py:156} INFO - Started process (PID=899136) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:04.222+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:31:04.224+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:04.223+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:04.396+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:04.447+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:04.446+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:31:04.493+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:04.493+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:31:04.524+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.312 seconds
+[2026-10-05T00:31:35.162+0000] {processor.py:156} INFO - Started process (PID=899201) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:35.164+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:31:35.166+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:35.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:35.311+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:31:35.357+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:35.357+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:31:35.405+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:35.405+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:31:35.438+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.282 seconds
+[2026-10-05T00:32:05.616+0000] {processor.py:156} INFO - Started process (PID=899266) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:05.618+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:32:05.620+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:05.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:05.780+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:05.834+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:05.834+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:32:05.881+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:05.881+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:32:05.912+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.304 seconds
+[2026-10-05T00:32:36.402+0000] {processor.py:156} INFO - Started process (PID=899331) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:36.404+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:32:36.406+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:36.405+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:36.558+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:32:36.608+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:36.608+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:32:36.655+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:36.654+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:32:36.686+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.295 seconds
+[2026-10-05T00:33:07.051+0000] {processor.py:156} INFO - Started process (PID=899396) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:07.052+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:33:07.053+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:07.053+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:07.189+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:07.229+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:07.229+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:33:07.282+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:07.281+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:33:07.319+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.275 seconds
+[2026-10-05T00:33:37.520+0000] {processor.py:156} INFO - Started process (PID=899461) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:37.522+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:33:37.523+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:37.523+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:37.653+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:33:37.689+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:37.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:33:37.731+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:37.731+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:33:37.763+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.249 seconds
+[2026-10-05T00:34:07.830+0000] {processor.py:156} INFO - Started process (PID=899526) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:07.831+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:34:07.832+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:07.832+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:07.973+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:08.018+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:08.018+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:34:08.075+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:08.075+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:34:08.114+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.290 seconds
+[2026-10-05T00:34:38.769+0000] {processor.py:156} INFO - Started process (PID=899591) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:38.771+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:34:38.772+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:38.771+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:38.907+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:34:38.953+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:38.953+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:34:39.007+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:39.006+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:34:39.040+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.280 seconds
+[2026-10-05T00:35:09.392+0000] {processor.py:156} INFO - Started process (PID=899656) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:09.393+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:35:09.394+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:09.394+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:09.540+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:09.589+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:09.588+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:35:09.638+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:09.638+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:35:09.673+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.288 seconds
+[2026-10-05T00:35:39.756+0000] {processor.py:156} INFO - Started process (PID=899721) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:39.762+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:35:39.763+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:39.763+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:39.904+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:35:39.944+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:39.944+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:35:39.988+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:39.987+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:35:40.027+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.279 seconds
+[2026-10-05T00:36:10.400+0000] {processor.py:156} INFO - Started process (PID=899782) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:10.401+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:36:10.402+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:10.402+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:10.530+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:10.568+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:10.568+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:36:10.612+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:10.612+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:36:10.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.261 seconds
+[2026-10-05T00:36:40.702+0000] {processor.py:156} INFO - Started process (PID=899845) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:40.707+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:36:40.708+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:40.708+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:40.844+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:36:40.895+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:40.894+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:36:40.941+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:40.941+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:36:40.975+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.278 seconds
+[2026-10-05T00:37:11.469+0000] {processor.py:156} INFO - Started process (PID=899910) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:11.471+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:37:11.472+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:11.472+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:11.603+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:11.646+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:11.646+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:37:11.705+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:11.705+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:37:11.738+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.274 seconds
+[2026-10-05T00:37:41.901+0000] {processor.py:156} INFO - Started process (PID=899976) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:41.903+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:37:41.904+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:41.904+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:42.047+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:37:42.097+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:42.097+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:37:42.139+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:42.139+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:37:42.171+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.278 seconds
+[2026-10-05T00:38:12.318+0000] {processor.py:156} INFO - Started process (PID=900042) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:12.319+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:38:12.320+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:12.320+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:12.451+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:12.495+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:12.495+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:38:12.539+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:12.538+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:38:12.570+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.258 seconds
+[2026-10-05T00:38:42.691+0000] {processor.py:156} INFO - Started process (PID=900107) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:42.694+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:38:42.695+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:42.695+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:42.829+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:38:42.875+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:42.875+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:38:42.923+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:42.923+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:38:43.153+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.469 seconds
+[2026-10-05T00:39:13.258+0000] {processor.py:156} INFO - Started process (PID=900170) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:13.259+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:39:13.261+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:13.261+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:13.390+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:13.430+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:13.430+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:39:13.672+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:13.671+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:39:13.706+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.454 seconds
+[2026-10-05T00:39:43.849+0000] {processor.py:156} INFO - Started process (PID=900235) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:43.851+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:39:43.852+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:43.851+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:43.992+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:39:44.039+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:44.039+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:39:44.090+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:44.090+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:39:44.127+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.285 seconds
+[2026-10-05T00:40:14.277+0000] {processor.py:156} INFO - Started process (PID=900301) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:14.278+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:40:14.280+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:14.280+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:14.410+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:14.451+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:14.449+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:40:14.696+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:14.696+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:40:14.724+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.459 seconds
+[2026-10-05T00:40:45.576+0000] {processor.py:156} INFO - Started process (PID=900366) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:45.582+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:40:45.583+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:45.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:45.731+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:40:45.974+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:45.974+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:40:46.014+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:46.014+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:40:46.043+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.475 seconds
+[2026-10-05T00:41:16.314+0000] {processor.py:156} INFO - Started process (PID=900433) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:16.316+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:41:16.317+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:16.316+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:16.680+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:16.724+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:16.723+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:41:16.778+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:16.777+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:41:16.812+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.504 seconds
+[2026-10-05T00:41:47.230+0000] {processor.py:156} INFO - Started process (PID=900498) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:47.234+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:41:47.235+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:47.234+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:47.552+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:41:47.589+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:47.588+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:41:47.638+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:47.638+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:41:47.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.452 seconds
+[2026-10-05T00:42:17.826+0000] {processor.py:156} INFO - Started process (PID=900563) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:17.829+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:42:17.831+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:17.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:18.219+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:18.248+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:18.248+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:42:18.284+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:18.284+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:42:18.312+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.492 seconds
+[2026-10-05T00:42:48.601+0000] {processor.py:156} INFO - Started process (PID=900630) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:48.603+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:42:48.605+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:48.605+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:48.955+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:42:48.984+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:48.983+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:42:49.021+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:49.020+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:42:49.063+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.468 seconds
+[2026-10-05T00:43:19.177+0000] {processor.py:156} INFO - Started process (PID=900694) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:19.179+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:43:19.180+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:19.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:19.319+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:19.360+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:19.360+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:43:19.404+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:19.403+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:43:19.434+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.263 seconds
+[2026-10-05T00:43:49.486+0000] {processor.py:156} INFO - Started process (PID=900759) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:49.489+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:43:49.490+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:49.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:49.614+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:43:49.665+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:49.664+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:43:49.709+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:49.709+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:43:49.747+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.269 seconds
+[2026-10-05T00:44:19.885+0000] {processor.py:156} INFO - Started process (PID=900824) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:19.888+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:44:19.889+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:19.889+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:20.029+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:20.071+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:20.071+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:44:20.116+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:20.116+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:44:20.154+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:44:50.876+0000] {processor.py:156} INFO - Started process (PID=900889) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:50.884+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:44:50.886+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:50.885+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:51.023+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:44:51.070+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:51.070+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:44:51.119+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:51.119+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:44:51.153+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.284 seconds
+[2026-10-05T00:45:21.193+0000] {processor.py:156} INFO - Started process (PID=900954) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:21.195+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:45:21.196+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:21.196+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:21.342+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:21.390+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:21.390+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:45:21.443+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:21.443+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:45:21.476+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.290 seconds
+[2026-10-05T00:45:51.873+0000] {processor.py:156} INFO - Started process (PID=901019) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:51.877+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:45:51.879+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:51.878+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:52.019+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:45:52.061+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:52.061+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:45:52.106+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:52.106+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:45:52.139+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.273 seconds
+[2026-10-05T00:46:22.448+0000] {processor.py:156} INFO - Started process (PID=901084) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:22.451+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:46:22.452+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:22.452+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:22.589+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:22.634+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:22.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:46:22.681+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:22.681+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:46:22.718+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.278 seconds
+[2026-10-05T00:46:52.851+0000] {processor.py:156} INFO - Started process (PID=901150) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:52.855+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:46:52.856+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:52.856+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:53.000+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:46:53.053+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:53.053+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:46:53.093+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:53.093+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:46:53.121+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.278 seconds
+[2026-10-05T00:47:23.166+0000] {processor.py:156} INFO - Started process (PID=901215) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:23.173+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:47:23.174+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:23.174+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:23.313+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:23.365+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:23.364+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:47:23.411+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:23.410+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:47:23.445+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.285 seconds
+[2026-10-05T00:47:53.669+0000] {processor.py:156} INFO - Started process (PID=901280) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:53.672+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:47:53.673+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:53.673+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:53.813+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:47:53.859+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:53.858+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:47:53.909+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:53.908+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:47:53.936+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.273 seconds
+[2026-10-05T00:48:24.063+0000] {processor.py:156} INFO - Started process (PID=901344) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:24.067+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:48:24.068+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:24.068+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:24.208+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:24.254+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:24.253+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:48:24.306+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:24.306+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:48:24.340+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.284 seconds
+[2026-10-05T00:48:54.382+0000] {processor.py:156} INFO - Started process (PID=901410) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:54.393+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:48:54.395+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:54.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:54.546+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:48:54.585+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:54.585+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:48:54.634+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:54.634+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:48:54.693+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.321 seconds
+[2026-10-05T00:49:24.782+0000] {processor.py:156} INFO - Started process (PID=901475) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:24.789+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:49:24.791+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:24.790+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:24.939+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:24.981+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:24.981+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:49:25.028+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:25.028+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:49:25.065+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.291 seconds
+[2026-10-05T00:49:55.306+0000] {processor.py:156} INFO - Started process (PID=901530) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:55.308+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:49:55.309+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:55.309+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:55.467+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:49:55.511+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:55.511+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:49:55.561+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:55.561+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:49:55.594+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.295 seconds
+[2026-10-05T00:50:26.347+0000] {processor.py:156} INFO - Started process (PID=901595) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:26.363+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:50:26.365+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:26.364+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:26.572+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:26.615+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:26.615+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:50:26.663+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:26.663+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:50:26.715+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.374 seconds
+[2026-10-05T00:50:57.200+0000] {processor.py:156} INFO - Started process (PID=901660) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:57.203+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:50:57.204+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:57.204+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:57.419+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:50:57.461+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:57.460+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:50:57.504+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:57.504+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:50:57.534+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.340 seconds
+[2026-10-05T00:51:27.864+0000] {processor.py:156} INFO - Started process (PID=901725) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:27.869+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:51:27.870+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:27.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:28.015+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:28.058+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:28.057+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:51:28.105+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:28.105+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:51:28.141+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.283 seconds
+[2026-10-05T00:51:58.326+0000] {processor.py:156} INFO - Started process (PID=901789) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:58.329+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:51:58.330+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:58.330+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:58.467+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:51:58.508+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:58.507+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:51:58.556+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:58.556+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:51:58.595+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:52:29.374+0000] {processor.py:156} INFO - Started process (PID=901854) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:52:29.376+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:52:29.377+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:29.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:52:29.507+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:52:29.550+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:29.549+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:52:29.599+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:29.599+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:52:29.635+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.268 seconds
+[2026-10-05T00:52:59.844+0000] {processor.py:156} INFO - Started process (PID=901920) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:52:59.846+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:52:59.847+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:59.847+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:52:59.974+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:53:00.016+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:00.016+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:53:00.071+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:00.071+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:53:00.109+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.273 seconds
+[2026-10-05T00:53:30.569+0000] {processor.py:156} INFO - Started process (PID=901984) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:53:30.571+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:53:30.572+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:30.572+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:53:30.713+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:53:30.758+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:30.758+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:53:30.813+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:30.812+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:53:30.849+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.286 seconds
+[2026-10-05T00:54:00.942+0000] {processor.py:156} INFO - Started process (PID=902049) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:00.945+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:54:00.946+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:00.946+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:01.076+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:01.118+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:01.117+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:54:01.169+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:01.169+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:54:01.213+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.277 seconds
+[2026-10-05T00:54:31.658+0000] {processor.py:156} INFO - Started process (PID=902114) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:31.659+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:54:31.660+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:31.660+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:31.820+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:54:31.858+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:31.858+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:54:31.900+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:31.900+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:54:31.932+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.285 seconds
+[2026-10-05T00:55:02.026+0000] {processor.py:156} INFO - Started process (PID=902166) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:02.032+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:55:02.033+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:02.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:02.188+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:02.232+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:02.231+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:55:02.280+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:02.280+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:55:02.335+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.315 seconds
+[2026-10-05T00:55:33.485+0000] {processor.py:156} INFO - Started process (PID=902231) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:33.486+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:55:33.487+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:33.487+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:33.641+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:55:33.679+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:33.679+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:55:33.729+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:33.729+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:55:33.761+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.283 seconds
+[2026-10-05T00:56:04.974+0000] {processor.py:156} INFO - Started process (PID=902294) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:04.976+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:56:04.977+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:04.977+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:05.134+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:05.186+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:05.186+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:56:05.235+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:05.234+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:56:05.267+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.306 seconds
+[2026-10-05T00:56:36.330+0000] {processor.py:156} INFO - Started process (PID=902359) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:36.332+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:56:36.333+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:36.333+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:36.469+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:56:36.514+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:36.514+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:56:36.566+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:36.565+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:56:36.597+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.276 seconds
+[2026-10-05T00:57:08.133+0000] {processor.py:156} INFO - Started process (PID=902423) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:08.137+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:57:08.139+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:08.139+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:08.297+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:08.349+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:08.348+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:57:08.409+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:08.408+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:57:08.451+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.324 seconds
+[2026-10-05T00:57:39.985+0000] {processor.py:156} INFO - Started process (PID=902486) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:39.990+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:57:39.991+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:39.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:40.149+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:57:40.195+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:40.195+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:57:40.243+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:40.243+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:57:40.285+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.307 seconds
+[2026-10-05T00:58:10.997+0000] {processor.py:156} INFO - Started process (PID=902551) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:10.999+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:58:11.000+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:11.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:11.140+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:11.184+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:11.184+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:58:11.234+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:11.234+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:58:11.267+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.277 seconds
+[2026-10-05T00:58:41.497+0000] {processor.py:156} INFO - Started process (PID=902611) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:41.499+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:58:41.500+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:41.499+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:41.635+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:58:41.678+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:41.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:58:41.719+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:41.719+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:58:41.749+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.259 seconds
+[2026-10-05T00:59:12.016+0000] {processor.py:156} INFO - Started process (PID=902672) to work on /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:59:12.018+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/00_test_infrastructure.py for tasks to queue
+[2026-10-05T00:59:12.019+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:59:12.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:59:12.158+0000] {processor.py:809} INFO - DAG(s) dict_keys(['00_test_infrastructure']) retrieved from /opt/airflow/dags/00_test_infrastructure.py
+[2026-10-05T00:59:12.202+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:59:12.202+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2026-10-05T00:59:12.254+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:59:12.253+0000] {dag.py:3490} INFO - Setting next_dagrun for 00_test_infrastructure to None, run_after=None
+[2026-10-05T00:59:12.290+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/00_test_infrastructure.py took 0.280 seconds

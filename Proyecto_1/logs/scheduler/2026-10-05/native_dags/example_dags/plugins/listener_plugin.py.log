@@ -1,0 +1,580 @@
+[2026-10-05T00:00:08.625+0000] {processor.py:156} INFO - Started process (PID=895241) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:08.627+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:00:08.628+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:08.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:08.643+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:08.675+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.070 seconds
+[2026-10-05T00:00:38.847+0000] {processor.py:156} INFO - Started process (PID=895306) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:38.848+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:00:38.849+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:00:38.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:38.852+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:00:38.891+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:01:09.407+0000] {processor.py:156} INFO - Started process (PID=895377) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:09.411+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:01:09.412+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:09.412+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:09.419+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:09.448+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:01:41.010+0000] {processor.py:156} INFO - Started process (PID=895443) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:41.014+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:01:41.016+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:01:41.015+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:41.019+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:01:41.060+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.062 seconds
+[2026-10-05T00:02:12.018+0000] {processor.py:156} INFO - Started process (PID=895508) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:12.020+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:02:12.021+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:12.020+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:12.024+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:12.072+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.060 seconds
+[2026-10-05T00:02:42.421+0000] {processor.py:156} INFO - Started process (PID=895573) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:42.422+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:02:42.423+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:02:42.423+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:42.426+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:02:42.450+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.035 seconds
+[2026-10-05T00:03:13.076+0000] {processor.py:156} INFO - Started process (PID=895638) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:13.079+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:03:13.080+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:13.079+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:13.084+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:13.117+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:03:44.296+0000] {processor.py:156} INFO - Started process (PID=895703) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:44.298+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:03:44.299+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:03:44.299+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:44.303+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:03:44.333+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2026-10-05T00:04:16.457+0000] {processor.py:156} INFO - Started process (PID=895768) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:16.459+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:04:16.460+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:16.460+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:16.465+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:16.492+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:04:48.259+0000] {processor.py:156} INFO - Started process (PID=895833) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:48.261+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:04:48.262+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:04:48.262+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:48.267+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:04:48.293+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:05:18.370+0000] {processor.py:156} INFO - Started process (PID=895894) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:18.372+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:05:18.373+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:18.373+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:18.377+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:18.402+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2026-10-05T00:05:48.617+0000] {processor.py:156} INFO - Started process (PID=895959) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:48.619+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:05:48.620+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:05:48.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:48.625+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:05:48.657+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:06:19.112+0000] {processor.py:156} INFO - Started process (PID=896024) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:19.114+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:06:19.116+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:19.116+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:19.120+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:19.144+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2026-10-05T00:06:49.556+0000] {processor.py:156} INFO - Started process (PID=896089) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:49.558+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:06:49.559+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:06:49.559+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:49.563+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:06:49.588+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2026-10-05T00:07:20.294+0000] {processor.py:156} INFO - Started process (PID=896154) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:20.300+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:07:20.302+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:07:20.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:20.306+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:20.338+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:07:50.726+0000] {processor.py:156} INFO - Started process (PID=896219) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:50.728+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:07:50.729+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:07:50.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:50.733+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:07:50.767+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:08:21.338+0000] {processor.py:156} INFO - Started process (PID=896284) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:21.346+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:08:21.347+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:21.347+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:21.356+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:21.391+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.057 seconds
+[2026-10-05T00:08:51.570+0000] {processor.py:156} INFO - Started process (PID=896348) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:51.571+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:08:51.572+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:08:51.572+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:51.576+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:08:51.607+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.044 seconds
+[2026-10-05T00:09:22.026+0000] {processor.py:156} INFO - Started process (PID=896413) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:22.029+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:09:22.030+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:22.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:22.034+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:22.064+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:09:52.929+0000] {processor.py:156} INFO - Started process (PID=896478) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:52.930+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:09:52.931+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:09:52.931+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:52.935+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:09:52.960+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.037 seconds
+[2026-10-05T00:10:24.754+0000] {processor.py:156} INFO - Started process (PID=896545) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:24.756+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:10:24.757+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:24.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:24.761+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:24.792+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:10:55.877+0000] {processor.py:156} INFO - Started process (PID=896610) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:55.878+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:10:55.879+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:10:55.879+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:55.883+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:10:55.908+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2026-10-05T00:11:27.413+0000] {processor.py:156} INFO - Started process (PID=896675) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:27.415+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:11:27.416+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:27.416+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:27.420+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:27.447+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:11:59.411+0000] {processor.py:156} INFO - Started process (PID=896743) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:59.414+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:11:59.415+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:11:59.415+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:59.419+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:11:59.448+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:12:30.867+0000] {processor.py:156} INFO - Started process (PID=896810) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:12:30.868+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:12:30.869+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:12:30.869+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:12:30.873+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:12:30.903+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:13:01.060+0000] {processor.py:156} INFO - Started process (PID=896870) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:01.063+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:13:01.064+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:01.063+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:01.069+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:01.106+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2026-10-05T00:13:32.270+0000] {processor.py:156} INFO - Started process (PID=896936) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:32.272+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:13:32.273+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:13:32.273+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:32.284+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:13:32.314+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:14:02.739+0000] {processor.py:156} INFO - Started process (PID=897000) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:02.741+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:14:02.742+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:02.742+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:02.746+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:02.779+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2026-10-05T00:14:33.534+0000] {processor.py:156} INFO - Started process (PID=897065) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:33.537+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:14:33.538+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:14:33.538+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:33.543+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:14:33.566+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2026-10-05T00:15:04.964+0000] {processor.py:156} INFO - Started process (PID=897129) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:04.972+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:15:04.973+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:04.973+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:04.978+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:05.002+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.046 seconds
+[2026-10-05T00:15:36.219+0000] {processor.py:156} INFO - Started process (PID=897195) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:36.223+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:15:36.224+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:15:36.224+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:36.228+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:15:36.259+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:16:07.356+0000] {processor.py:156} INFO - Started process (PID=897262) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:07.358+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:16:07.359+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:07.359+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:07.363+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:07.386+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.037 seconds
+[2026-10-05T00:16:39.137+0000] {processor.py:156} INFO - Started process (PID=897327) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:39.139+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:16:39.140+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:16:39.140+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:39.144+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:16:39.171+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:17:10.311+0000] {processor.py:156} INFO - Started process (PID=897391) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:10.313+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:17:10.314+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:10.313+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:10.318+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:10.353+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:17:41.674+0000] {processor.py:156} INFO - Started process (PID=897456) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:41.678+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:17:41.679+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:17:41.679+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:41.683+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:17:41.713+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:18:12.593+0000] {processor.py:156} INFO - Started process (PID=897521) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:12.596+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:18:12.597+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:12.597+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:12.603+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:12.643+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.056 seconds
+[2026-10-05T00:18:44.161+0000] {processor.py:156} INFO - Started process (PID=897593) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:44.163+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:18:44.164+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:18:44.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:44.168+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:18:44.196+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:19:14.487+0000] {processor.py:156} INFO - Started process (PID=897658) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:14.489+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:19:14.490+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:14.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:14.494+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:14.523+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:19:45.527+0000] {processor.py:156} INFO - Started process (PID=897723) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:45.529+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:19:45.530+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:19:45.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:45.534+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:19:45.559+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:20:16.093+0000] {processor.py:156} INFO - Started process (PID=897788) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:16.095+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:20:16.096+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:16.096+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:16.100+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:16.132+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:20:47.897+0000] {processor.py:156} INFO - Started process (PID=897853) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:47.900+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:20:47.901+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:20:47.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:47.906+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:20:47.934+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:21:17.993+0000] {processor.py:156} INFO - Started process (PID=897913) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:17.995+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:21:17.997+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:17.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:18.003+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:18.030+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:21:48.653+0000] {processor.py:156} INFO - Started process (PID=897978) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:48.655+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:21:48.657+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:21:48.656+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:48.661+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:21:48.694+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:22:19.389+0000] {processor.py:156} INFO - Started process (PID=898043) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:19.391+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:22:19.392+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:19.392+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:19.398+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:19.430+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:22:49.947+0000] {processor.py:156} INFO - Started process (PID=898108) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:49.949+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:22:49.950+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:22:49.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:49.954+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:22:49.982+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:23:20.604+0000] {processor.py:156} INFO - Started process (PID=898172) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:20.606+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:23:20.607+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:20.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:20.611+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:20.638+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:23:51.412+0000] {processor.py:156} INFO - Started process (PID=898237) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:51.417+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:23:51.418+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:23:51.418+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:51.423+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:23:51.454+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:24:22.067+0000] {processor.py:156} INFO - Started process (PID=898303) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:22.070+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:24:22.071+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:22.071+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:22.076+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:22.105+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:24:52.320+0000] {processor.py:156} INFO - Started process (PID=898367) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:52.321+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:24:52.323+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:24:52.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:52.326+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:24:52.362+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:25:22.808+0000] {processor.py:156} INFO - Started process (PID=898432) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:22.811+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:25:22.813+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:22.813+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:22.823+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:22.855+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2026-10-05T00:25:53.214+0000] {processor.py:156} INFO - Started process (PID=898497) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:53.216+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:25:53.217+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:25:53.217+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:53.221+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:25:53.247+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2026-10-05T00:26:23.651+0000] {processor.py:156} INFO - Started process (PID=898556) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:23.654+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:26:23.659+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:23.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:23.668+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:23.694+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:26:54.694+0000] {processor.py:156} INFO - Started process (PID=898621) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:54.696+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:26:54.697+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:26:54.697+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:54.701+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:26:54.731+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:27:25.244+0000] {processor.py:156} INFO - Started process (PID=898686) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:25.246+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:27:25.247+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:27:25.246+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:25.251+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:25.286+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:27:56.962+0000] {processor.py:156} INFO - Started process (PID=898751) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:56.963+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:27:56.965+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:27:56.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:56.969+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:27:57.001+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.046 seconds
+[2026-10-05T00:28:27.737+0000] {processor.py:156} INFO - Started process (PID=898816) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:27.739+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:28:27.740+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:27.739+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:27.744+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:27.778+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:28:58.167+0000] {processor.py:156} INFO - Started process (PID=898876) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:58.169+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:28:58.170+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:28:58.170+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:58.174+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:28:58.202+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:29:28.781+0000] {processor.py:156} INFO - Started process (PID=898941) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:28.786+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:29:28.787+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:28.787+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:28.792+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:28.821+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:29:59.227+0000] {processor.py:156} INFO - Started process (PID=899005) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:59.228+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:29:59.229+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:29:59.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:59.235+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:29:59.266+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.046 seconds
+[2026-10-05T00:30:29.656+0000] {processor.py:156} INFO - Started process (PID=899070) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:30:29.659+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:30:29.661+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:30:29.661+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:30:29.666+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:30:29.704+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.057 seconds
+[2026-10-05T00:31:00.115+0000] {processor.py:156} INFO - Started process (PID=899134) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:00.116+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:31:00.117+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:00.117+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:00.121+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:00.151+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.044 seconds
+[2026-10-05T00:31:31.062+0000] {processor.py:156} INFO - Started process (PID=899199) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:31.065+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:31:31.066+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:31:31.066+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:31.070+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:31:31.098+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:32:01.559+0000] {processor.py:156} INFO - Started process (PID=899264) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:01.560+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:32:01.562+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:01.561+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:01.565+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:01.603+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:32:32.291+0000] {processor.py:156} INFO - Started process (PID=899329) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:32.293+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:32:32.295+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:32:32.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:32.299+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:32:32.336+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2026-10-05T00:33:02.950+0000] {processor.py:156} INFO - Started process (PID=899394) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:02.952+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:33:02.953+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:02.953+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:02.957+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:02.986+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:33:33.419+0000] {processor.py:156} INFO - Started process (PID=899459) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:33.421+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:33:33.422+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:33:33.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:33.425+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:33:33.452+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2026-10-05T00:34:03.728+0000] {processor.py:156} INFO - Started process (PID=899524) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:03.730+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:34:03.731+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:03.730+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:03.734+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:03.763+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:34:34.635+0000] {processor.py:156} INFO - Started process (PID=899589) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:34.637+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:34:34.639+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:34:34.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:34.643+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:34:34.677+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:35:05.019+0000] {processor.py:156} INFO - Started process (PID=899652) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:05.020+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:35:05.021+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:05.021+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:05.025+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:05.053+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:35:35.642+0000] {processor.py:156} INFO - Started process (PID=899714) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:35.644+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:35:35.645+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:35:35.645+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:35.649+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:35:35.676+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:36:06.274+0000] {processor.py:156} INFO - Started process (PID=899779) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:06.276+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:36:06.277+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:06.277+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:06.283+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:06.313+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2026-10-05T00:36:36.593+0000] {processor.py:156} INFO - Started process (PID=899843) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:36.594+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:36:36.595+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:36:36.595+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:36.599+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:36:36.631+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.044 seconds
+[2026-10-05T00:37:07.425+0000] {processor.py:156} INFO - Started process (PID=899908) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:07.427+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:37:07.429+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:07.429+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:07.436+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:07.472+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.055 seconds
+[2026-10-05T00:37:37.615+0000] {processor.py:156} INFO - Started process (PID=899973) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:37.617+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:37:37.618+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:37:37.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:37.630+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:37:37.656+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:38:07.998+0000] {processor.py:156} INFO - Started process (PID=900038) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:08.000+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:38:08.001+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:08.000+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:08.004+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:08.024+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.032 seconds
+[2026-10-05T00:38:38.395+0000] {processor.py:156} INFO - Started process (PID=900103) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:38.398+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:38:38.399+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:38:38.399+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:38.404+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:38:38.436+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:39:09.121+0000] {processor.py:156} INFO - Started process (PID=900168) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:09.124+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:39:09.126+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:09.125+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:09.132+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:09.179+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.069 seconds
+[2026-10-05T00:39:39.744+0000] {processor.py:156} INFO - Started process (PID=900233) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:39.746+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:39:39.747+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:39:39.747+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:39.751+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:39:39.779+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:40:09.971+0000] {processor.py:156} INFO - Started process (PID=900298) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:09.972+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:40:09.973+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:09.973+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:09.977+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:09.999+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:40:40.435+0000] {processor.py:156} INFO - Started process (PID=900363) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:40.441+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:40:40.442+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:40:40.442+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:40.446+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:40:40.481+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:41:11.390+0000] {processor.py:156} INFO - Started process (PID=900429) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:11.392+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:41:11.393+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:11.393+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:11.399+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:11.429+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:41:42.628+0000] {processor.py:156} INFO - Started process (PID=900493) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:42.630+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:41:42.631+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:41:42.631+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:42.634+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:41:42.661+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:42:13.007+0000] {processor.py:156} INFO - Started process (PID=900553) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:13.009+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:42:13.010+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:13.010+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:13.014+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:13.043+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:42:43.147+0000] {processor.py:156} INFO - Started process (PID=900617) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:43.149+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:42:43.150+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:42:43.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:43.154+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:42:43.181+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:43:13.818+0000] {processor.py:156} INFO - Started process (PID=900683) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:13.820+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:43:13.821+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:13.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:13.826+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:13.853+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2026-10-05T00:43:44.114+0000] {processor.py:156} INFO - Started process (PID=900748) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:44.116+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:43:44.118+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:43:44.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:44.122+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:43:44.148+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:44:14.726+0000] {processor.py:156} INFO - Started process (PID=900813) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:14.729+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:44:14.731+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:14.731+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:14.737+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:14.770+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:44:45.547+0000] {processor.py:156} INFO - Started process (PID=900878) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:45.553+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:44:45.554+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:44:45.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:45.558+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:44:45.584+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:45:15.872+0000] {processor.py:156} INFO - Started process (PID=900943) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:15.874+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:45:15.875+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:15.875+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:15.880+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:15.904+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.038 seconds
+[2026-10-05T00:45:46.546+0000] {processor.py:156} INFO - Started process (PID=901008) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:46.549+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:45:46.550+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:45:46.550+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:46.554+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:45:46.579+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-10-05T00:46:16.983+0000] {processor.py:156} INFO - Started process (PID=901068) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:16.995+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:46:16.996+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:16.996+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:17.000+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:17.033+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.057 seconds
+[2026-10-05T00:46:47.501+0000] {processor.py:156} INFO - Started process (PID=901133) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:47.503+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:46:47.504+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:46:47.504+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:47.508+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:46:47.537+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:47:18.277+0000] {processor.py:156} INFO - Started process (PID=901199) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:18.279+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:47:18.280+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:18.280+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:18.284+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:18.321+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:47:49.335+0000] {processor.py:156} INFO - Started process (PID=901271) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:49.339+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:47:49.341+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:47:49.340+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:49.346+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:47:49.373+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:48:20.088+0000] {processor.py:156} INFO - Started process (PID=901335) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:20.091+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:48:20.091+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:20.091+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:20.096+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:20.135+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2026-10-05T00:48:50.421+0000] {processor.py:156} INFO - Started process (PID=901396) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:50.425+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:48:50.426+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:48:50.425+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:50.429+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:48:50.460+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:49:20.585+0000] {processor.py:156} INFO - Started process (PID=901461) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:20.588+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:49:20.589+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:20.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:20.593+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:20.627+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2026-10-05T00:49:51.991+0000] {processor.py:156} INFO - Started process (PID=901526) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:51.995+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:49:51.997+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:49:51.996+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:52.002+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:49:52.029+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2026-10-05T00:50:23.010+0000] {processor.py:156} INFO - Started process (PID=901591) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:23.015+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:50:23.016+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:23.016+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:23.021+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:23.051+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:50:53.894+0000] {processor.py:156} INFO - Started process (PID=901656) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:53.906+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:50:53.907+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:50:53.907+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:53.911+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:50:53.941+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2026-10-05T00:51:24.536+0000] {processor.py:156} INFO - Started process (PID=901721) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:24.557+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:51:24.560+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:24.560+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:24.565+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:24.593+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.068 seconds
+[2026-10-05T00:51:55.035+0000] {processor.py:156} INFO - Started process (PID=901785) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:55.041+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:51:55.042+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:51:55.042+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:55.045+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:51:55.069+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2026-10-05T00:52:26.090+0000] {processor.py:156} INFO - Started process (PID=901850) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:26.092+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:52:26.093+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:26.092+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:26.096+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:26.116+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.032 seconds
+[2026-10-05T00:52:57.316+0000] {processor.py:156} INFO - Started process (PID=901915) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:57.318+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:52:57.319+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:52:57.319+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:57.323+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:52:57.352+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:53:28.275+0000] {processor.py:156} INFO - Started process (PID=901980) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:28.278+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:53:28.279+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:28.278+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:28.284+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:28.313+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:53:59.621+0000] {processor.py:156} INFO - Started process (PID=902045) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:59.622+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:53:59.623+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:53:59.623+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:59.627+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:53:59.653+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2026-10-05T00:54:31.506+0000] {processor.py:156} INFO - Started process (PID=902112) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:54:31.508+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:54:31.509+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:54:31.508+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:54:31.513+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:54:31.554+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.056 seconds
+[2026-10-05T00:55:03.278+0000] {processor.py:156} INFO - Started process (PID=902178) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:03.280+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:55:03.281+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:03.281+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:03.284+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:03.306+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.033 seconds
+[2026-10-05T00:55:34.879+0000] {processor.py:156} INFO - Started process (PID=902243) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:34.882+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:55:34.883+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:55:34.882+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:34.887+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:55:34.929+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.058 seconds
+[2026-10-05T00:56:06.938+0000] {processor.py:156} INFO - Started process (PID=902312) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:06.940+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:56:06.941+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:06.941+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:06.946+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:06.973+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:56:38.466+0000] {processor.py:156} INFO - Started process (PID=902377) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:38.468+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:56:38.469+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:56:38.469+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:38.473+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:56:38.504+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2026-10-05T00:57:10.319+0000] {processor.py:156} INFO - Started process (PID=902442) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:10.321+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:57:10.323+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:10.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:10.327+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:10.357+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2026-10-05T00:57:42.080+0000] {processor.py:156} INFO - Started process (PID=902507) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:42.083+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:57:42.084+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:57:42.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:42.088+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:57:42.118+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.044 seconds
+[2026-10-05T00:58:14.146+0000] {processor.py:156} INFO - Started process (PID=902572) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:14.148+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:58:14.149+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:14.149+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:14.152+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:14.182+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2026-10-05T00:58:45.415+0000] {processor.py:156} INFO - Started process (PID=902637) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:45.420+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:58:45.421+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:58:45.420+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:45.425+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:58:45.457+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2026-10-05T00:59:15.695+0000] {processor.py:156} INFO - Started process (PID=902698) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:59:15.697+0000] {processor.py:799} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-10-05T00:59:15.699+0000] {logging_mixin.py:149} INFO - [2026-10-05T00:59:15.699+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:59:15.703+0000] {processor.py:811} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-10-05T00:59:15.733+0000] {processor.py:178} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.067 seconds
