@@ -1,0 +1,82 @@
+services:
+
+  mlflow:
+    image: ${DOCKERHUB_USER}/mlops-locust:v1
+    command:
+      - mlflow
+      - server
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "5000"
+      - --workers
+      - "1"
+      - --backend-store-uri
+      - sqlite:////mlflow/db/mlflow.db
+      - --artifacts-destination
+      - /mlflow/artifacts
+      - --allowed-hosts
+      - "mlflow:*,localhost:*"
+    volumes:
+      - mlflow_data:/mlflow
+    expose:
+      - "5000"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+
+  trainer:
+    image: ${DOCKERHUB_USER}/mlops-locust:v1
+    profiles:
+      - setup
+    command: ["python", "train.py"]
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+    depends_on:
+      mlflow:
+        condition: service_healthy
+
+  api:
+    image: ${DOCKERHUB_USER}/mlops-locust:v1
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      MODEL_URI: models:/modelo_locust@champion
+    cpus: 1.0
+    mem_limit: 1g
+    expose:
+      - "8000"
+    depends_on:
+      mlflow:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+
+  proxy:
+    image: nginx:1.27.5-alpine
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro,Z
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  mlflow_data:
+
