@@ -1,0 +1,81 @@
+
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: minio-create-bucket
+  namespace: mlops
+  labels:
+    app: minio-bucket-init
+spec:
+  backoffLimit: 3
+  template:
+    metadata:
+      labels:
+        app: minio-bucket-init
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bucket-init
+          image: docker.io/amazon/aws-cli:2.39.3
+          imagePullPolicy: IfNotPresent
+          command:
+            - /bin/sh
+            - -ec
+          args:
+            - |
+              ENDPOINT=http://minio.mlops.svc.cluster.local:9000
+              BUCKET=mlflow-artifacts
+
+              echo "Verificando si existe el bucket..."
+
+              if aws --endpoint-url "$ENDPOINT" \
+                s3api head-bucket --bucket "$BUCKET" \
+                >/dev/null 2>&1; then
+
+                echo "El bucket ya existe."
+
+              else
+                echo "Creando bucket..."
+
+                aws --endpoint-url "$ENDPOINT" \
+                  s3api create-bucket \
+                  --bucket "$BUCKET"
+              fi
+
+              echo "Verificando resultado..."
+
+              aws --endpoint-url "$ENDPOINT" \
+                s3api head-bucket --bucket "$BUCKET"
+
+              echo "Bucket mlflow-artifacts disponible."
+
+          env:
+            - name: AWS_ACCESS_KEY_ID
+              valueFrom:
+                secretKeyRef:
+                  name: minio-secret
+                  key: MINIO_ROOT_USER
+
+            - name: AWS_SECRET_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: minio-secret
+                  key: MINIO_ROOT_PASSWORD
+
+            - name: AWS_DEFAULT_REGION
+              value: us-east-1
+
+            - name: AWS_EC2_METADATA_DISABLED
+              value: "true"
+
+            - name: AWS_PAGER
+              value: ""
+
+          resources:
+            requests:
+              cpu: 50m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 384Mi
+
