@@ -1,0 +1,118 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlflow
+  namespace: mlops
+  labels:
+    app: mlflow
+spec:
+  replicas: 0
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: mlflow
+  template:
+    metadata:
+      labels:
+        app: mlflow
+    spec:
+      containers:
+        - name: mlflow
+          image: docker.io/library/mlflow-puj:3.5.1-fix1
+          imagePullPolicy: Never
+
+          command:
+            - /bin/sh
+            - -ec
+
+          args:
+            - |
+              exec mlflow server \
+                --host 0.0.0.0 \
+                --port 5000 \
+                --workers 1 \
+                --backend-store-uri \
+                  "postgresql+psycopg2://mlops@postgres:5432/mlflowdb" \
+                --artifacts-destination \
+                  "s3://mlflow-artifacts" \
+                --serve-artifacts \
+                --allowed-hosts \
+                  "mlflow,mlflow:5000,mlflow.mlops.svc.cluster.local,mlflow.mlops.svc.cluster.local:5000,localhost,127.0.0.1,10.43.97.91"
+
+          ports:
+            - name: http
+              containerPort: 5000
+
+          env:
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: POSTGRES_PASSWORD
+
+            - name: AWS_ACCESS_KEY_ID
+              valueFrom:
+                secretKeyRef:
+                  name: minio-secret
+                  key: MINIO_ROOT_USER
+
+            - name: AWS_SECRET_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: minio-secret
+                  key: MINIO_ROOT_PASSWORD
+
+            - name: AWS_DEFAULT_REGION
+              value: us-east-1
+
+            - name: MLFLOW_S3_ENDPOINT_URL
+              value: http://minio:9000
+
+            - name: AWS_EC2_METADATA_DISABLED
+              value: "true"
+
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            initialDelaySeconds: 20
+            periodSeconds: 10
+            failureThreshold: 6
+
+          startupProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            periodSeconds: 10
+            failureThreshold: 30
+
+          resources:
+            requests:
+              cpu: 100m
+              memory: 512Mi
+              ephemeral-storage: 256Mi
+            limits:
+              cpu: "1"
+              memory: 2Gi
+              ephemeral-storage: 1Gi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mlflow
+  namespace: mlops
+  labels:
+    app: mlflow
+spec:
+  type: ClusterIP
+  selector:
+    app: mlflow
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000
+      protocol: TCP
+

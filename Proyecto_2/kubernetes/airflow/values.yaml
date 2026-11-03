@@ -1,0 +1,66 @@
+executor: LocalExecutor
+
+postgresql:
+  enabled: false
+
+redis:
+  enabled: false
+
+data:
+  metadataSecretName: airflow-metadata
+
+config:
+  core:
+    load_examples: "False"
+    parallelism: 2
+    max_active_tasks_per_dag: 1
+
+  scheduler:
+    max_threads: 2
+
+scheduler:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 100m
+      memory: 384Mi
+    limits:
+      cpu: 500m
+      memory: 1Gi
+
+apiServer:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 100m
+      memory: 384Mi
+    limits:
+      cpu: 500m
+      memory: 1Gi
+
+dagProcessor:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 50m
+      memory: 256Mi
+    limits:
+      cpu: 300m
+      memory: 768Mi
+
+triggerer:
+  enabled: false
+
+statsd:
+  enabled: false
+
+dags:
+  persistence:
+    enabled: false
+  gitSync:
+    enabled: false
+
+logs:
+  persistence:
+    enabled: false
+
