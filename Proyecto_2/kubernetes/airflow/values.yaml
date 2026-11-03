@@ -64,3 +64,81 @@ logs:
   persistence:
     enabled: false
 
+airflowVersion: "3.2.2"
+
+executor: LocalExecutor
+
+images:
+  airflow:
+    repository: bastter/airflow-mlops
+    tag: "3.2.2-v1"
+    pullPolicy: IfNotPresent
+
+postgresql:
+  enabled: false
+
+redis:
+  enabled: false
+
+pgbouncer:
+  enabled: false
+
+data:
+  metadataSecretName: airflow-metadata
+
+config:
+  core:
+    load_examples: "False"
+    parallelism: 2
+    max_active_tasks_per_dag: 1
+
+scheduler:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 100m
+      memory: 384Mi
+    limits:
+      cpu: 500m
+      memory: 1Gi
+
+apiServer:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 100m
+      memory: 384Mi
+    limits:
+      cpu: 500m
+      memory: 1Gi
+
+dagProcessor:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 500m
+      memory: 1Gi
+
+triggerer:
+  enabled: false
+
+statsd:
+  enabled: false
+
+dags:
+  persistence:
+    enabled: false
+  gitSync:
+    enabled: false
+
+logs:
+  persistence:
+    enabled: false
+
+createUserJob:
+  defaultUser:
+    enabled: false
+
