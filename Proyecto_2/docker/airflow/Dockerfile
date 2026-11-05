@@ -7,6 +7,8 @@ COPY --chown=airflow:0 \
     docker/airflow/requirements.txt \
     /tmp/requirements.txt
 
+COPY --chown=airflow:0 data/diabetic_data.csv /opt/airflow/data/diabetic_data.cs:v
+
 RUN pip install --no-cache-dir \
     "apache-airflow==3.2.2" \
     -r /tmp/requirements.txt \
@@ -21,4 +23,5 @@ COPY --chown=airflow:0 \
 
 ENV PYTHONPATH=/opt/airflow/project
 ENV MLFLOW_TRACKING_URI=http://mlflow.mlops.svc.cluster.local:5000
+ENV DIABETES_CSV_PATH=/opt/airflow/data/diabetic_data.csv
 

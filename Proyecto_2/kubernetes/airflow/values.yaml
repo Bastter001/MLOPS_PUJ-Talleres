@@ -23,10 +23,10 @@ scheduler:
   resources:
     requests:
       cpu: 100m
-      memory: 384Mi
+      memory: 512Mi
     limits:
-      cpu: 500m
-      memory: 1Gi
+      cpu: "1"
+      memory: 3Gi
 
 apiServer:
   replicas: 1
@@ -71,7 +71,7 @@ executor: LocalExecutor
 images:
   airflow:
     repository: bastter/airflow-mlops
-    tag: "3.2.2-v1"
+    tag: "3.2.2-v3"
     pullPolicy: IfNotPresent
 
 postgresql:
@@ -142,3 +142,13 @@ createUserJob:
   defaultUser:
     enabled: false
 
+secret:
+  - envName: DIABETES_DATABASE_URL
+    secretName: diabetes-db
+    secretKey: connection
+
+env:
+  - name: DIABETES_CSV_PATH
+    value: /opt/airflow/data/diabetic_data.csv
+  - name: MLFLOW_TRACKING_URI
+    value: http://mlflow.mlops.svc.cluster.local:5000
