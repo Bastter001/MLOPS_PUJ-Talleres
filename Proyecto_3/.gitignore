@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.venv/
+*.pyc
+data/
+artifacts/
+kubeconfig
+secrets.local.yaml
