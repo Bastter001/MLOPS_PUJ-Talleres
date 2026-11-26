@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: data-api
+  namespace: mlops
+
+  labels:
+    app: data-api
+    project: proyecto3
+
+spec:
+  type: ClusterIP
+
+  selector:
+    app: data-api
+    project: proyecto3
+
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+      protocol: TCP

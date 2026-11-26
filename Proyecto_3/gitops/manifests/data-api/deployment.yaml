@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: data-api
+  namespace: mlops
+
+  labels:
+    app: data-api
+    project: proyecto3
+
+spec:
+  replicas: 1
+
+  revisionHistoryLimit: 2
+
+  strategy:
+    type: Recreate
+
+  selector:
+    matchLabels:
+      app: data-api
+      project: proyecto3
+
+  template:
+    metadata:
+      labels:
+        app: data-api
+        project: proyecto3
+
+    spec:
+      automountServiceAccountToken: false
+
+      containers:
+        - name: data-api
+
+          image: cristiandiaz13/mlops-puj:data-api-pf-v2
+
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
+
+          startupProbe:
+            tcpSocket:
+              port: http
+
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 60
+
+          readinessProbe:
+            tcpSocket:
+              port: http
+
+            periodSeconds: 10
+            timeoutSeconds: 2
+            failureThreshold: 3
+
+          livenessProbe:
+            tcpSocket:
+              port: http
+
+            periodSeconds: 20
+            timeoutSeconds: 2
+            failureThreshold: 3
+
