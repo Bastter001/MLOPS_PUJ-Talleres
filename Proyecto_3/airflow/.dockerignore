@@ -1,0 +1,13 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+logs/
+.env
+.env.*
+.git/
+mlruns/
+mlartifacts/
