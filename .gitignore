@@ -1,0 +1,26 @@
+
+# Entornos virtuales de Python
+**/venv/
+**/.venv/
+
+# Archivos temporales de Python
+**/__pycache__/
+*.pyc
+*.pyo
+**/.pytest_cache/
+
+# Logs generados por Airflow
+**/logs/
+
+# Experimentos locales de MLflow
+**/mlruns/
+**/mlartifacts/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de editores
+*.swp
+*.swo
