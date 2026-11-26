@@ -1,0 +1,63 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: proyecto3-db-migration-002
+  namespace: mlops
+  labels:
+    app: proyecto3-db-migration
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
+spec:
+  backoffLimit: 2
+  activeDeadlineSeconds: 180
+  template:
+    metadata:
+      labels:
+        app: proyecto3-db-migration
+    spec:
+      restartPolicy: Never
+      automountServiceAccountToken: false
+      containers:
+        - name: migration
+          image: postgres:16
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: PGHOST
+              value: postgres.mlops.svc.cluster.local
+            - name: PGPORT
+              value: "5432"
+            - name: PGUSER
+              value: mlops
+            - name: PGDATABASE
+              value: proyecto3_data
+            - name: PGCONNECT_TIMEOUT
+              value: "10"
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: POSTGRES_PASSWORD
+          command:
+            - /bin/bash
+            - -c
+          args:
+            - |
+              set -euo pipefail
+              psql -X -w -v ON_ERROR_STOP=1 \
+                -f /sql/002-group-8.sql
+              echo "Migracion grupo 8 completada"
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+          volumeMounts:
+            - name: migration-sql
+              mountPath: /sql
+              readOnly: true
+      volumes:
+        - name: migration-sql
+          configMap:
+            name: proyecto3-db-migration-002-sql

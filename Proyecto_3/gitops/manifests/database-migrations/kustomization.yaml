@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: mlops
+
+resources:
+  - job-group-8.yaml
+
+configMapGenerator:
+  - name: proyecto3-db-migration-002-sql
+    files:
+      - 002-group-8.sql
+
+generatorOptions:
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
