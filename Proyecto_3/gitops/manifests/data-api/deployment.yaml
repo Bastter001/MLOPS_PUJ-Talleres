@@ -53,7 +53,8 @@ spec:
               memory: "1Gi"
 
           startupProbe:
-            tcpSocket:
+            httpGet:
+              path: /health
               port: http
 
             periodSeconds: 5
@@ -61,7 +62,8 @@ spec:
             failureThreshold: 60
 
           readinessProbe:
-            tcpSocket:
+            httpGet:
+              path: /health
               port: http
 
             periodSeconds: 10
@@ -69,7 +71,8 @@ spec:
             failureThreshold: 3
 
           livenessProbe:
-            tcpSocket:
+            httpGet:
+              path: /health
               port: http
 
             periodSeconds: 20
