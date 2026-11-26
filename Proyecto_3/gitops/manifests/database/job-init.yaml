@@ -1,0 +1,113 @@
+apiVersion: batch/v1
+kind: Job
+
+metadata:
+  name: proyecto3-db-init-v1
+  namespace: mlops
+
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
+
+spec:
+  backoffLimit: 2
+
+  activeDeadlineSeconds: 300
+
+  template:
+    metadata:
+      labels:
+        app: proyecto3-db-init
+
+    spec:
+      restartPolicy: Never
+
+      automountServiceAccountToken: false
+
+      containers:
+        - name: database-init
+
+          image: postgres:16
+
+          imagePullPolicy: IfNotPresent
+
+          env:
+            - name: PGHOST
+              value: postgres.mlops.svc.cluster.local
+
+            - name: PGPORT
+              value: "5432"
+
+            - name: PGUSER
+              value: mlops
+
+            - name: PGCONNECT_TIMEOUT
+              value: "10"
+
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: REEMPLAZAR_SECRET_POSTGRES
+                  key: REEMPLAZAR_KEY_PASSWORD
+
+            - name: TRAINING_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: proyecto3-db-credentials
+                  key: TRAINING_PASSWORD
+
+            - name: INFERENCE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: proyecto3-db-credentials
+                  key: INFERENCE_PASSWORD
+
+            - name: READER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: proyecto3-db-credentials
+                  key: READER_PASSWORD
+
+          command:
+            - /bin/bash
+            - -c
+
+          args:
+            - |
+              set -euo pipefail
+
+              echo "Verificando PostgreSQL..."
+
+              pg_isready -h "$PGHOST" -p "$PGPORT"
+
+              echo "Creando base y roles..."
+
+              psql -X -w -v ON_ERROR_STOP=1 \
+                -d postgres \
+                -f /sql/01-bootstrap.sql
+
+              echo "Creando esquemas y tablas..."
+
+              psql -X -w -v ON_ERROR_STOP=1 \
+                -d proyecto3_data \
+                -f /sql/02-schema.sql
+
+              echo "Inicializacion completada correctamente."
+
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+
+          volumeMounts:
+            - name: sql-scripts
+              mountPath: /sql
+              readOnly: true
+
+      volumes:
+        - name: sql-scripts
+          configMap:
+            name: proyecto3-db-init-sql
