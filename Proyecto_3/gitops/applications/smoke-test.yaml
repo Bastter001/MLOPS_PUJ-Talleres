@@ -1,5 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
+
 metadata:
   name: proyecto3-smoke-test
   namespace: argocd
@@ -17,5 +18,9 @@ spec:
     namespace: proyecto3-gitops-test
 
   syncPolicy:
+    automated:
+      prune: false
+      selfHeal: true
+
     syncOptions:
       - CreateNamespace=true
