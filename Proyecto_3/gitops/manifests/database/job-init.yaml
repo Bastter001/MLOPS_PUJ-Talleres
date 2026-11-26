@@ -46,8 +46,8 @@ spec:
             - name: PGPASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: REEMPLAZAR_SECRET_POSTGRES
-                  key: REEMPLAZAR_KEY_PASSWORD
+                  name: postgres-secret
+                  key: POSTGRES_PASSWORD
 
             - name: TRAINING_PASSWORD
               valueFrom:
