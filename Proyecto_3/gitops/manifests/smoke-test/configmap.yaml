@@ -8,3 +8,4 @@ data:
   plataforma: "MLOps"
   herramienta: "Argo CD"
   estado: "GitOps operativo"
+  gitops_validation: "version-2"
