@@ -1,0 +1,80 @@
+===== UNIT TESTS =====
+test_empty_batch (test_validation.SchemaTests.test_empty_batch) ... ok
+test_invalid_json (test_validation.SchemaTests.test_invalid_json) ... ok
+test_json_list (test_validation.SchemaTests.test_json_list) ... ok
+test_json_wrapper (test_validation.SchemaTests.test_json_wrapper) ... ok
+test_missing_price (test_validation.SchemaTests.test_missing_price) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+===== FUNCTIONAL VALIDATION =====
+===== 01. IMAGE METADATA =====
+GIT_COMMIT: 292fdd4423e30c705ab30a03010ba59228a68b49
+DATA_API_GROUP: 8
+IMAGE_METADATA: OK
+
+===== 02. DEPENDENCIES =====
+apache-airflow 3.2.2
+mlflow 3.5.1
+pandas 2.3.3
+numpy 2.4.6
+scikit-learn 1.8.0
+psycopg2-binary 2.9.12
+requests 2.34.2
+scipy 1.17.1
+boto3 1.43.0
+DEPENDENCIES: OK
+
+===== 03. DAG FILES =====
+/opt/airflow/dags/diabetes_mlops_pipeline.py
+/opt/airflow/dags/real_estate_mlops.py
+DAG_FILES: OK
+
+===== 04. PROJECT MODULES =====
+src.settings OK
+src.database OK
+src.audit OK
+src.ingestion OK
+src.validation OK
+
+===== 05. DAG IMPORT =====
+DAG_ID: proyecto3_real_estate_mlops
+TASK_COUNT: 6
+TASK: start
+TASK: fetch_batch_from_api
+TASK: store_raw_batch
+TASK: validate_schema
+TASK: notify_or_log_result
+TASK: end
+DAG_IMPORT: OK
+
+===== 06. TRAINING POLICY =====
+POLICY_VERSION: 1.0
+POLICY_SHA256: acb7b5a23c134158bf10550eb49364365b9bafcad59c20ab7c1088dcbde07c0a
+TRAINING_POLICY: OK
+
+===== 07. POSTGRESQL =====
+DATABASE: proyecto3_data
+USER: proyecto3_training
+RAW_INSERT: True
+RAW_MODIFY: False
+RAW_DELETE: False
+CLEAN_INSERT: True
+AUDIT_INSERT: True
+STORED_RAW_BATCHES: 0
+POSTGRESQL: OK
+
+===== 08. MLFLOW =====
+TRACKING_URI: http://mlflow:5000
+EXPERIMENTS_FOUND: 4
+MLFLOW: OK
+
+===== 09. DATA API HEALTH =====
+HTTP_STATUS: 200
+HEALTH: {'status': 'OK'}
+DATA_API: OK
+
+===== VALIDATION RESULT =====
+AIRFLOW_IMAGE_VALIDATION: SUCCESS

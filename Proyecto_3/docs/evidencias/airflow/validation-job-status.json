@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "proyecto3-airflow-validation-v1"
+  },
+  "status": {
+    "completionTime": "2026-11-27T14:29:54Z",
+    "conditions": [
+      {
+        "lastProbeTime": "2026-11-27T14:29:54Z",
+        "lastTransitionTime": "2026-11-27T14:29:54Z",
+        "message": "Reached expected number of succeeded pods",
+        "reason": "CompletionsReached",
+        "status": "True",
+        "type": "SuccessCriteriaMet"
+      },
+      {
+        "lastProbeTime": "2026-11-27T14:29:54Z",
+        "lastTransitionTime": "2026-11-27T14:29:54Z",
+        "message": "Reached expected number of succeeded pods",
+        "reason": "CompletionsReached",
+        "status": "True",
+        "type": "Complete"
+      }
+    ],
+    "ready": 0,
+    "startTime": "2026-11-27T14:29:23Z",
+    "succeeded": 1,
+    "terminating": 0,
+    "uncountedTerminatedPods": {}
+  }
+}

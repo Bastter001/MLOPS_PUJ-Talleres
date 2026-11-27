@@ -1,0 +1,58 @@
+airflowVersion: 3.2.2
+executor: LocalExecutor
+postgresql:
+  enabled: false
+redis:
+  enabled: false
+data:
+  metadataSecretName: airflow-metadata
+dags:
+  persistence:
+    enabled: false
+  gitSync:
+    enabled: false
+env:
+- name: DATA_API_URL
+  value: http://data-api:80
+- name: DATA_API_GROUP
+  value: '8'
+- name: DATA_API_DAY
+  value: ''
+- name: PROYECTO3_DB_HOST
+  value: postgres
+- name: PROYECTO3_DB_PORT
+  value: '5432'
+- name: PROYECTO3_DB_NAME
+  value: proyecto3_data
+- name: PROYECTO3_DB_USER
+  value: proyecto3_training
+- name: MLFLOW_TRACKING_URI
+  value: http://mlflow:5000
+- name: MLFLOW_EXPERIMENT_NAME
+  value: proyecto3-real-estate
+- name: REGISTERED_MODEL_NAME
+  value: proyecto3-real-estate-price
+- name: MODEL_ALIAS
+  value: champion
+- name: OMP_NUM_THREADS
+  value: '2'
+- name: OPENBLAS_NUM_THREADS
+  value: '2'
+- name: MKL_NUM_THREADS
+  value: '2'
+secret:
+- envName: PROYECTO3_DB_PASSWORD
+  secretName: proyecto3-db-credentials
+  secretKey: TRAINING_PASSWORD
+config:
+  core:
+    parallelism: '4'
+    max_active_runs_per_dag: '1'
+    max_active_tasks_per_dag: '2'
+    dags_are_paused_at_creation: 'True'
+    load_examples: 'False'
+images:
+  airflow:
+    repository: bastter/mlops-airflow
+    tag: 292fdd4423e30c705ab30a03010ba59228a68b49
+    pullPolicy: IfNotPresent

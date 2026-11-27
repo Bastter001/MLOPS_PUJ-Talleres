@@ -1,0 +1,72 @@
+fernetKeySecretName: airflow-fernet-key
+
+apiSecretKeySecretName: airflow-api-secret-key
+
+jwtSecretName: airflow-jwt-secret
+
+data:
+  metadataSecretName: airflow-metadata
+  brokerUrlSecretName: airflow-broker-url
+
+scheduler:
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "512Mi"
+    limits:
+      cpu: "1"
+      memory: "3Gi"
+
+  logGroomerSidecar:
+    resources:
+      requests:
+        cpu: "25m"
+        memory: "32Mi"
+      limits:
+        cpu: "100m"
+        memory: "128Mi"
+
+apiServer:
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "384Mi"
+    limits:
+      cpu: "500m"
+      memory: "1Gi"
+
+dagProcessor:
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "256Mi"
+    limits:
+      cpu: "500m"
+      memory: "1Gi"
+
+  logGroomerSidecar:
+    resources:
+      requests:
+        cpu: "25m"
+        memory: "32Mi"
+      limits:
+        cpu: "100m"
+        memory: "128Mi"
+
+migrateDatabaseJob:
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "256Mi"
+    limits:
+      cpu: "500m"
+      memory: "512Mi"
+
+createUserJob:
+  resources:
+    requests:
+      cpu: "50m"
+      memory: "128Mi"
+    limits:
+      cpu: "250m"
+      memory: "512Mi"

@@ -1,0 +1,14 @@
+createUserJob:
+  enabled: false
+
+migrateDatabaseJob:
+  enabled: false
+
+scheduler:
+  replicas: 1
+
+apiServer:
+  replicas: 1
+
+dagProcessor:
+  replicas: 1
