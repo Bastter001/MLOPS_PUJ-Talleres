@@ -1,0 +1,115 @@
+apiVersion: batch/v1
+kind: Job
+
+metadata:
+  name: proyecto3-airflow-validation-v1
+  namespace: mlops
+
+  labels:
+    app: proyecto3-airflow-validation
+    project: proyecto3
+    group: "8"
+
+spec:
+  backoffLimit: 0
+
+  activeDeadlineSeconds: 300
+
+  template:
+
+    metadata:
+      labels:
+        app: proyecto3-airflow-validation
+
+    spec:
+
+      restartPolicy: Never
+
+      automountServiceAccountToken: false
+
+      containers:
+
+        - name: validation
+
+          image: bastter/mlops-airflow:292fdd4423e30c705ab30a03010ba59228a68b49
+
+          imagePullPolicy: Always
+
+          command:
+            - bash
+            - -ec
+
+          args:
+            - |
+              echo "===== UNIT TESTS ====="
+
+              python -m unittest discover \
+                -s /opt/airflow/proyecto3-tests \
+                -p 'test_*.py' -v
+
+              echo "===== FUNCTIONAL VALIDATION ====="
+
+              python /validation/check_airflow.py
+
+          env:
+
+            - name: EXPECTED_GIT_SHA
+              value: "292fdd4423e30c705ab30a03010ba59228a68b49"
+
+            - name: DATA_API_GROUP
+              value: "8"
+
+            - name: DATA_API_URL
+              value: "http://data-api:80"
+
+            - name: DATA_API_DAY
+              value: ""
+
+            - name: PROYECTO3_DB_HOST
+              value: "postgres"
+
+            - name: PROYECTO3_DB_PORT
+              value: "5432"
+
+            - name: PROYECTO3_DB_NAME
+              value: "proyecto3_data"
+
+            - name: PROYECTO3_DB_USER
+              value: "proyecto3_training"
+
+            - name: PROYECTO3_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: proyecto3-db-credentials
+                  key: TRAINING_PASSWORD
+
+            - name: MLFLOW_TRACKING_URI
+              value: "http://mlflow:5000"
+
+            - name: OMP_NUM_THREADS
+              value: "1"
+
+            - name: OPENBLAS_NUM_THREADS
+              value: "1"
+
+          resources:
+
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
+
+          volumeMounts:
+
+            - name: validation-script
+              mountPath: /validation
+              readOnly: true
+
+      volumes:
+
+        - name: validation-script
+          configMap:
+            name: proyecto3-airflow-validation-script

@@ -1,0 +1,20 @@
+{
+  "name": "292fdd4423e30c705ab30a03010ba59228a68b49",
+  "digest": "sha256:77ef31666dfb91b9def371747d086e194d23dd660d65c2405ea56dd29c2d3cb2",
+  "last_updated": "2026-11-26T21:45:06.936248Z",
+  "images": [
+    {
+      "architecture": "amd64",
+      "features": "",
+      "variant": null,
+      "digest": "sha256:a58867e64f48dee22dc5d5b96b70795db00fba778eac915c5b15fa3184f79b0b",
+      "os": "linux",
+      "os_features": "",
+      "os_version": null,
+      "size": 781173101,
+      "status": "active",
+      "last_pulled": "2026-11-27T11:29:17.161271829Z",
+      "last_pushed": "2026-11-26T21:38:23.003274666Z"
+    }
+  ]
+}
