@@ -1,0 +1,4 @@
+airflow-api-server-c9855d868-bpvw2      1/1     Running                  1 (3h14m ago)   3h15m
+airflow-dag-processor-bf9f7f7c9-8s4n5   2/2     Running                  0               3h15m
+airflow-scheduler-0                     2/2     Running                  0               3h15m
+proyecto3-airflow-validation-v1-ndf6j   0/1     Completed                0               5h11m

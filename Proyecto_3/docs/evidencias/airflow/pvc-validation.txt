@@ -1,0 +1,1 @@
+Files /home/estudiante/proyecto3-backups/airflow-20261126-125228/pvc-before-gitops.json and /home/estudiante/proyecto3-backups/airflow-20261126-125228/pvc-after-gitops.json are identical

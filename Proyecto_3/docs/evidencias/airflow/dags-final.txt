@@ -1,0 +1,12 @@
+2026-11-27T19:41:35.748573Z [info     ] setup plugin alembic.autogenerate.schemas [alembic.runtime.plugins] loc=plugins.py:37
+2026-11-27T19:41:35.748903Z [info     ] setup plugin alembic.autogenerate.tables [alembic.runtime.plugins] loc=plugins.py:37
+2026-11-27T19:41:35.749081Z [info     ] setup plugin alembic.autogenerate.types [alembic.runtime.plugins] loc=plugins.py:37
+2026-11-27T19:41:35.749235Z [info     ] setup plugin alembic.autogenerate.constraints [alembic.runtime.plugins] loc=plugins.py:37
+2026-11-27T19:41:35.749380Z [info     ] setup plugin alembic.autogenerate.defaults [alembic.runtime.plugins] loc=plugins.py:37
+2026-11-27T19:41:35.749554Z [info     ] setup plugin alembic.autogenerate.comments [alembic.runtime.plugins] loc=plugins.py:37
+dag_id                      | fileloc                                      | owners | is_paused | bundle_name | bundle_version
+============================+==============================================+========+===========+=============+===============
+diabetes_mlops_pipeline     | /opt/airflow/dags/diabetes_mlops_pipeline.py | mlops  | True      | dags-folder | None          
+diabetes_mlops_pipeline     | /opt/airflow/dags/diabetes_mlops_pipeline.py | mlops  | True      | dags-folder | None          
+proyecto3_real_estate_mlops | /opt/airflow/dags/real_estate_mlops.py       | grupo8 | True      | dags-folder | None          
+                                                                                                                              

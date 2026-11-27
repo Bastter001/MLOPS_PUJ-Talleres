@@ -1,32 +1,28 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-
 metadata:
   name: airflow
   namespace: argocd
-
 spec:
   project: default
-
   sources:
-    - repoURL: https://airflow.apache.org
-      chart: airflow
-      targetRevision: "1.22.0"
-
-      helm:
-        releaseName: airflow
-        valueFiles:
-          - $values/Proyecto_3/gitops/values/airflow-final.yaml
-
-    - repoURL: https://github.com/Bastter001/MLOPS_PUJ-Talleres.git
-      targetRevision: main
-      ref: values
-
+  - repoURL: https://airflow.apache.org
+    chart: airflow
+    targetRevision: 1.22.0
+    helm:
+      releaseName: airflow
+      valueFiles:
+      - $values/Proyecto_3/gitops/values/airflow-final.yaml
+  - repoURL: https://github.com/Bastter001/MLOPS_PUJ-Talleres.git
+    targetRevision: main
+    ref: values
   destination:
     server: https://kubernetes.default.svc
     namespace: mlops
-
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true
-      - PruneLast=true
+    - CreateNamespace=true
+    - PruneLast=true
+    automated:
+      prune: false
+      selfHeal: true

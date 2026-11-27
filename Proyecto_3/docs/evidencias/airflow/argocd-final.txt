@@ -1,0 +1,7 @@
+NAME                            SYNC STATUS   HEALTH STATUS
+airflow                         Synced        Healthy
+proyecto3-airflow-validation    Synced        Healthy
+proyecto3-data-api              Synced        Healthy
+proyecto3-database              Synced        Healthy
+proyecto3-database-migrations   Synced        Healthy
+proyecto3-smoke-test            Synced        Healthy
